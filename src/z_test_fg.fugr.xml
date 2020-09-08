@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Test Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_TEST_FGTOP</SOBJ_NAME>
+    <SOBJ_NAME>LZ_TEST_FGZZZ</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_TEST_FG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_TEST_TIRTHANKAR</FUNCNAME>
+     <SHORT_TEXT>Test Function Module Tirthankar</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_EBELN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ABAP_BOOLEAN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_EBELN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
