@@ -1,8 +1,8 @@
 *&---------------------------------------------------------------------*
-*& Report ZDEMO_GCTS_REPORT
+*& Report ZDEVOPS_DEMO_GCTS
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-REPORT ZDEMO_GCTS_REPORT.
+REPORT ZDEVOPS_DEMO_GCTS.
 
-Write: 'Hello GCTS Fiori App'.
+WRITE: 'Second program'.
