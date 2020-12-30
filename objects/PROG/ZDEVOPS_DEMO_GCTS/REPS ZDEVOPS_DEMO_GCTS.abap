@@ -5,4 +5,4 @@
 *&---------------------------------------------------------------------*
 REPORT ZDEVOPS_DEMO_GCTS.
 
-WRITE: 'Second program'.
+WRITE: 'Second program with changes in Azure Repos'.
