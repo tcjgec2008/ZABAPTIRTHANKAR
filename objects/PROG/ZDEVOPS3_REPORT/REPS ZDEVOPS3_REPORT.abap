@@ -51,7 +51,7 @@ DATA: wa_ekko            TYPE lty_ekpo,
       wa_events          TYPE slis_alv_event,
       wa_sort            TYPE slis_sortinfo_alv.
 
-
+BREAK-POINT.
 
 *--- Start-of-selection event
 START-OF-SELECTION.
