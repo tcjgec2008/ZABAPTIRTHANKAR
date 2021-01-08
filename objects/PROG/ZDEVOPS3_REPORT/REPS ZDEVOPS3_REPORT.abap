@@ -69,8 +69,7 @@ START-OF-SELECTION.
          FROM ekpo
          INTO TABLE lt_ekpo
          WHERE ebeln IN s_ebeln
-         AND ntgew NE '0.00'
-    ENDSELECT.
+         AND ntgew NE '0.00'.
   IF sy-subrc = 0.
     SORT lt_ekpo BY ebeln ebelp matnr .
   ENDIF.
