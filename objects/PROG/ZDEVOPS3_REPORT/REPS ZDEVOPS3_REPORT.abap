@@ -51,11 +51,11 @@ DATA: wa_ekko            TYPE lty_ekpo,
       wa_events          TYPE slis_alv_event,
       wa_sort            TYPE slis_sortinfo_alv.
 
-BREAK-POINT.
+
 
 *--- Start-of-selection event
 START-OF-SELECTION.
-BREAK-POINT.
+
 * Select data from ekpo
   SELECT ebeln " Doc no
          ebelp " Item
@@ -68,7 +68,8 @@ BREAK-POINT.
          FROM ekpo
          INTO TABLE lt_ekpo
          WHERE ebeln IN s_ebeln
-         AND ntgew NE '0.00'.
+         AND ntgew NE '0.00'
+    ENDSELECT.
   IF sy-subrc = 0.
     SORT lt_ekpo BY ebeln ebelp matnr .
   ENDIF.
