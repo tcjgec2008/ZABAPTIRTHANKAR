@@ -36,6 +36,7 @@ TYPES: BEGIN OF lty_ekpo,
        END OF lty_ekpo.
 
 
+
 *--- Internal table declaration
 DATA: lt_ekpo            TYPE STANDARD TABLE OF lty_ekpo,
       lt_fieldcat        TYPE slis_t_fieldcat_alv,
