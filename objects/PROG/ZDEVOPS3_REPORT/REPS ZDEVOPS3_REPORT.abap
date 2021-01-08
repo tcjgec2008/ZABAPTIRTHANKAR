@@ -55,7 +55,7 @@ BREAK-POINT.
 
 *--- Start-of-selection event
 START-OF-SELECTION.
-
+BREAK-POINT.
 * Select data from ekpo
   SELECT ebeln " Doc no
          ebelp " Item
