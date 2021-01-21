@@ -4,4 +4,4 @@
 *&
 *&---------------------------------------------------------------------*
 REPORT ZDEVOPS3_REPORT.
-Write: 'Write report for testing GCTS Push & Pull Scenario ??'.
+Write: 'Write report for testing GCTS Push & Pull Scenario ???'.
