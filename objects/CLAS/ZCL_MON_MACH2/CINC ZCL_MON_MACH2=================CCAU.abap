@@ -34,6 +34,7 @@ class ltc_get_amount_in_coins IMPLEMENTATION.
 
     "then
     cl_abap_unit_assert=>assert_equals( exp = 1 act = coin_amount ).
+
   ENDMETHOD.
 
   METHOD amount_2_coin_2.
