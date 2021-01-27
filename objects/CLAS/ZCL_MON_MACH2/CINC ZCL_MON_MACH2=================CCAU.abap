@@ -32,7 +32,7 @@ class ltc_get_amount_in_coins IMPLEMENTATION.
     "when
     data(coin_amount) = m_cut->get_amount_in_coins( 1 ).
 
-    "then
+    "thenscenario
     cl_abap_unit_assert=>assert_equals( exp = 1 act = coin_amount ).
 
   ENDMETHOD.
