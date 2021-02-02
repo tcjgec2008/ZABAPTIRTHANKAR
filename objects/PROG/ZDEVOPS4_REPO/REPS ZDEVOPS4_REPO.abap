@@ -15,7 +15,7 @@ gd_fcurr = 'EUR'.
 gd_tcurr = 'GBP'.
 gd_date  = sy-datum.
 gd_value = 10.
-BREAK-POINT.
+
 PERFORM currency_conversion USING gd_fcurr
                                   gd_tcurr
                                   gd_date
