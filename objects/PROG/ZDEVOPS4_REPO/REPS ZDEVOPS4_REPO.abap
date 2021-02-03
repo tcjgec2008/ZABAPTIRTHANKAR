@@ -15,7 +15,7 @@ gd_fcurr = 'EUR'.
 gd_tcurr = 'GBP'.
 gd_date  = sy-datum.
 gd_value = 10.
-
+*Select this space for some changes
 PERFORM currency_conversion USING gd_fcurr
                                   gd_tcurr
                                   gd_date
