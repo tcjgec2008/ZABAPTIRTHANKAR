@@ -15,6 +15,7 @@ SELECT sales_i~* FROM vbak AS sales_h
   WHERE sales_h~vbeln = @lv_vbeln
   INTO TABLE @DATA(lt_data).
 
+*Code Changes Starting from
 LOOP AT lt_data INTO DATA(ty_ls).                    "select * code commented, Bug fixed                         "vbeln, posnr, matnr
   SELECT * FROM vbap INTO @data(ls_data) WHERE vbeln = '0000000001'.
   ENDSELECT.
