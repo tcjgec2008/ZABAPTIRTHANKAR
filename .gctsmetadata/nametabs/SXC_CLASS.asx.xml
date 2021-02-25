@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<NAMETAB>
+<NAMETAB>
+<NAME>IMP_NAME</NAME>
+<KEY>X</KEY>
+<TYPE>C</TYPE>
+<LENGTH>000020</LENGTH>
+<DECIMALS>-1</DECIMALS>
+</NAMETAB>
+<NAMETAB>
+<NAME>INTER_NAME</NAME>
+<KEY>X</KEY>
+<TYPE>C</TYPE>
+<LENGTH>000030</LENGTH>
+<DECIMALS>-1</DECIMALS>
+</NAMETAB>
+<NAMETAB>
+<NAME>IMP_CLASS</NAME>
+<KEY></KEY>
+<TYPE>C</TYPE>
+<LENGTH>000030</LENGTH>
+<DECIMALS>-1</DECIMALS>
+</NAMETAB>
+</NAMETAB>
+</asx:values>
+</asx:abap>
