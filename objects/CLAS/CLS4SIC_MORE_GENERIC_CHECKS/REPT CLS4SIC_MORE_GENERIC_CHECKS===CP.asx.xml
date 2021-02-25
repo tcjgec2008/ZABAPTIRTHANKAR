@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>I01</KEY>
+<LANG>E</LANG>
+<ENTRY>Invalid entrie(s) found in table TBP2B in client &amp;.</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>I02</KEY>
+<LANG>E</LANG>
+<ENTRY>Invalid entrie(s) found in table TFB03T in client &amp;.</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>N01</KEY>
+<LANG>E</LANG>
+<ENTRY>Please check SAP Note 2749796 for further information.</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>N02</KEY>
+<LANG>E</LANG>
+<ENTRY>Please check SAP Note 2035728 for further information and how to fix.</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>R01</KEY>
+<LANG>E</LANG>
+<ENTRY>Please run report RS4SIC_PSMTABCORR for correction.</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>S01</KEY>
+<LANG>E</LANG>
+<ENTRY>Switch Framework parameter SBCSETS_ACTIVATE_IN_CLIENTS is set in table SFWPARAM,</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>S02</KEY>
+<LANG>E</LANG>
+<ENTRY>which is definitely not recommended during an upgrade or system conversion.</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>S03</KEY>
+<LANG>E</LANG>
+<ENTRY>This will overwrite significant parts of your customer specific customizing!</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>U01</KEY>
+<LANG>E</LANG>
+<ENTRY>This is not a Unicode system! Please convert the system to Unicode first.</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>U02</KEY>
+<LANG>E</LANG>
+<ENTRY>Only once this is done, you can do a System Conversion to SAP S/4HANA.</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+</TEXTPOOLT>
+</asx:values>
+</asx:abap>

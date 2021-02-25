@@ -1,0 +1,159 @@
+U1 &PURPOSE&                                                               
+AS The program automatically corrects duplicate entries in table           
+   <AB>FAAT_DOC_IT</> provided that these entries were created by the      
+   depreciation posting run or by the balance carryforward.                
+AS Removing the duplicate entries is a prerequisite for the upgrade to     
+   release SAP S/4HANA 1909 (i.e. software component version S4CORE 104) or
+   higher.                                                                 
+AS This program corrects the corresponding issue with the conversion class 
+   <AB>CL_XCLA_FAAT_DOC_IT</> during the upgrade to release SAP S/4HANA    
+   1909 or higher.                                                         
+U1 &INTEGRATION&                                                           
+AS                                                                         
+U1 &PREREQUISITES&                                                         
+AS The program is available as of source release sFIN 2.0 (i.e. software   
+   component version SAP_FIN 720).                                         
+U1 &FEATURES&                                                              
+AS In the first step, the program selects duplicate entries in table       
+   <AB>FAAT_DOC_IT</> at database level.                                   
+AS If duplicate entries are found, the program sums up the amount fields of
+   the duplicate entries.                                                  
+AS In the second step, the program deletes duplicate entries from the      
+   database and replaces them with new unique database entries. The sums of
+   the selected amount fields are used to fill the amount and currency type
+   fields of the so-called currency vector.                                
+AS The program checks if all non-key fields, besides the amount fields, are
+   filled identically. If this is <ZH>not</> the case, the program issues  
+   an error message.                                                       
+AS The program algorithm makes sure that the balances at the level of asset
+   master data are <ZH>not</> changed. This is important because the       
+   program typically processes data in closed fiscal years.                
+U2 &SELECTION&                                                             
+B1 <ZH>Client</> (optional):                                               
+AL The program can handle a specific client or all clients at once.        
+AL If the client field is empty, the system corrects all clients at once.  
+AL It is <ZH>not</> possible to exclude company codes from the selection.  
+AL The system prefills the client field with the logon client if the logon 
+   client is different from <AB>000</>.                                    
+B1 <ZH>Company Code </>(optional):                                         
+AL The program can handle a selection of company codes or all company codes
+   at once.                                                                
+AL You can enter a specific company code or make a general entry, for      
+   example, by entering a star (asterisk). You can also exclude company    
+   codes from the selection.                                               
+B1 <ZH>Main Asset Number </>(optional):                                    
+AL The program can handle a selection of main asset numbers or all main    
+   asset numbers at once.                                                  
+AL You can enter a specific main asset number or make a general entry, for 
+   example, by entering a star (asterisk). You can also exclude main asset 
+   numbers from the selection.                                             
+B1 <ZH>Fiscal Year </>(optional):                                          
+AL The program can handle a selection of fiscal years or all fiscal years  
+   at once. You can enter a specific fiscal year, but you cannot make a    
+   general entry. You can also exclude fiscal years from the selection.    
+B1 <ZH>Test Run and Update Run</>:                                         
+AL You can execute the program in test run or update run. The program can  
+   be executed in the foreground or in the background.                     
+AS Note:                                                                   
+/  If you want to make sure that all duplicate entries are corrected in the
+   whole system, execute the program with all input fields left empty and  
+   the test run indicator removed.                                         
+U2 &STANDARD_VARIANTS&                                                     
+AS                                                                         
+U2 &OUTPUT&                                                                
+AS The program uses the ALV list as output.                                
+B1 The <ZH>ALV header section</> shows a summary of the findings of the    
+   analysis.                                                               
+AL The ALV header section contains the following information:              
+B2 Information about whether the program is executed in test or update run 
+B2 A message in case any error occurred that prevents an automatic         
+   correction                                                              
+B2 A message if no duplicate entries were found                            
+B2 The number of expected total number of DB deletions (including          
+   correctable and non-correctable lines)                                  
+B2 The number of expected total number of DB inserts                       
+B2 The number of successful DB deletions                                   
+B2 The number of successful DB inserts                                     
+B2 The number of failed DB deletions                                       
+B2 The number of failed DB inserts                                         
+B1 The <ZH>ALV list section</> shows a list of detected duplicate entries  
+   in table <AB>FAAT_DOC_IT</>.                                            
+AL The ALV list section shows a subset of fields of DB table               
+   <AB>FAAT_DOC_IT</>.                                                     
+AL The amount fields are already summed up with respect to the duplicate   
+   occurrences of the DB key.                                              
+AL The leading traffic light within the ALV list section is filled as      
+   following:                                                              
+B2 The traffic light is green in case of program execution in update run if
+   this DB entry was corrected automatically.                              
+B2 The traffic light is yellow in case of program execution in test run if 
+   this DB entry can be corrected automatically.                           
+B2 The traffic light is red in case of a DB entry that can’t be corrected  
+   automatically – or in case any error occurred.                          
+AL There are additional columns that show the result of program analysis:  
+B2 Column <LS>Occurrence</> contains the number of duplicate entries for   
+   the listed key fields.                                                  
+B2 Column <LS>Manual</> is marked if an automatic correction is <ZH>not</> 
+   possible                                                                
+B2 Column <LS>Auto</> is marked if an automatic correction is possible     
+B2 Column <LS>Corrected</> is marked after the update run if the automatic 
+   correction was executed successfully                                    
+B2 Column <LS>Depr. Amount</> is marked if the duplicate entry was         
+   originally created by the depreciation posting run or the balance       
+   carryforward.                                                           
+B2 Column <LS>Ident Attr</> is marked if the DB entry is <ZH>not</> a      
+   depreciation amount but the attribute fields (that are <ZH>not</> amount
+   fields) are still identical. In this case an automatic correction is    
+   <ZH>not</> possible.                                                    
+B2 Column <LS>Group Asset</> is <ZH>not</> in use.                         
+U1 &ACTIVITIES&                                                            
+AS You have the following navigation options:                              
+B1 <ZH>Open Asset Explorer</>                                              
+AL In the ALV output list<(>,<)> it is possible to directly open the asset 
+   explorer with a single click on the asset main or sub number. This is   
+   only possible if the selected entry lies within the logon client.       
+B1 <ZH>Open Application Log</>                                             
+AL In the output list<(>,<)> it is possible to display the simulated or    
+   persisted application log by choosing the button <LS>Message Log</> (F7)
+   within the ALV output list.                                             
+AL This application log can also be displayed in transaction <AB>SLG1</>.  
+   But the application log is only persisted in case the program is        
+   executed in update run.                                                 
+AL The application log data is persisted with the following specifications:
+B2 Object = <AB>FINS</>                                                    
+B2 Sub object = <AB>FINS_MIG</>                                            
+B2 The external ID is filled with the technical name of the program.       
+U1 &EXAMPLES&                                                              
+AS <ZH>Example 1:</>                                                       
+AS The ALV header section shows the following content if <ZH>no</>         
+   duplicate entries were found:                                           
+B1 No errors occurred -> Button <LS>Message Log</> (F7)                    
+B1 No duplicate entries found in <AB>FAAT_DOC_IT</>                        
+AS These entries are marked with a preceding green traffic light.          
+AS This is a clear indication that the necessary precondition for the      
+   release upgrade is fulfilled with respect to duplicate entries in table 
+   <AB>FAAT_DOC_IT</>.                                                     
+AS <ZH>Example 2:</>                                                       
+AS The ALV header section shows the following content if duplicate entries 
+   were found that can be corrected automatically:                         
+B1 No errors occurred -> Button <LS>Message Log</> (F7)                    
+B1 The header section lists the expected and actual number of DB deletions 
+   and inserts.                                                            
+B1 The listed number of failed DB deletions and inserts are both zero.     
+B1 In a test run, all entries are all marked with a preceding yellow       
+   traffic light.                                                          
+B1 In an update run, all entries are marked with a preceding green traffic 
+   light.                                                                  
+AS <ZH>Example 3:</>                                                       
+AS The ALV header area shows the following content if duplicate entries    
+   were found that can’t be corrected automatically:                       
+B1 Errors Occurred -> Button <LS>Message Log</> (F7)                       
+B1 These entries are marked with a preceding red traffic light.            
+AS This is a clear indication that the necessary precondition for the      
+   release upgrade is <ZH>not</> fulfilled with respect to duplicate       
+   entries in table <AB>FAAT_DOC_IT</>.                                    
+AS In this case please create a customer incident under component          
+   <AB>FI-AA-AA-C</> with the following title: "S/4 HANA upgrade           
+   Simplification Item Check failed due to duplicate entries in            
+   FAAT_DOC_IT".                                                           
+AS                                                                         

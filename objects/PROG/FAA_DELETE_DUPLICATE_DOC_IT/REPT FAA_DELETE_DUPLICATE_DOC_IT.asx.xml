@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>AUT</KEY>
+<LANG>E</LANG>
+<ENTRY>Automatic correction possible</ENTRY>
+<LENGTH>70</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>COR</KEY>
+<LANG>E</LANG>
+<ENTRY>Correction successfully executed</ENTRY>
+<LENGTH>70</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>ERR</KEY>
+<LANG>E</LANG>
+<ENTRY>No automatic correction possible</ENTRY>
+<LENGTH>70</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>R</ID>
+<KEY></KEY>
+<LANG>E</LANG>
+<ENTRY>Correct Duplicate Entries in Table FAAT_DOC_IT</ENTRY>
+<LENGTH>50</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_CLIENT</KEY>
+<LANG>E</LANG>
+<ENTRY>D       .</ENTRY>
+<LENGTH>9</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_TEST</KEY>
+<LANG>E</LANG>
+<ENTRY>D       .</ENTRY>
+<LENGTH>9</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>SO_ANLN1</KEY>
+<LANG>E</LANG>
+<ENTRY>D       .</ENTRY>
+<LENGTH>9</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>SO_BUKRS</KEY>
+<LANG>E</LANG>
+<ENTRY>D       .</ENTRY>
+<LENGTH>9</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>SO_GJAHR</KEY>
+<LANG>E</LANG>
+<ENTRY>D       .</ENTRY>
+<LENGTH>9</LENGTH>
+</TEXTPOOLT>
+</TEXTPOOLT>
+</asx:values>
+</asx:abap>
