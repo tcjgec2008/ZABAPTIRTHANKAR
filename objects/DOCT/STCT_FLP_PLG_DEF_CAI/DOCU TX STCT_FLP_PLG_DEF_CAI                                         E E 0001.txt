@@ -1,0 +1,15 @@
+U1 &PURPOSE&                                                               
+*  Use this task to define the FLP Plugin for Conversational AI (CAI)      
+   according transaction                                                   
+=         <DS:TRAN./UI2/FLP_CONF_DEF>/UI2/FLP_CONF_DEF</> with the         
+   following settings:                                                     
+B1 FLP Plugin ID: CAI_PLUGIN                                               
+B1 Description: Plugin for Conversational AI                               
+B1 UI5 Component ID: sap.cai.webclient                                     
+U1 &REALIZE&                                                               
+*  Enter the URL for the Conversational AI (CAI) plugin.                   
+*  In case the FLP Plugin has a different state, confirm to overwrite the  
+   setting in the parameter UI.                                            
+U1 &DEPENDENCIES&                                                          
+*  The task 'Create / Select Workbench Request (SE09)' must be preprocessor
+   of this task.                                                           

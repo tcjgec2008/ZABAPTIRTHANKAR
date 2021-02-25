@@ -1,0 +1,9 @@
+U1 &PURPOSE&                                                               
+*  使用此任务根据事务 <DS:TRAN./UI2/FLP_SYS_CONF>/UI2/FLP_SYS_CONF</> 设置            
+   以下 FLP 属性：                                                              
+B1 APPFINDER_EASYACCESSMENU_SAPMENU = true                                 
+B1 APPFINDER_EASYACCESSMENU_USERMENU = true                                
+*  倘若已存在具有另一不同值的 FLP 属性，确认覆盖参数 UI 中的设置。                                    
+U1 &DEPENDENCIES&                                                          
+*  “创建/选择工作台请求 (SE09)”任务必须是此任务的前趋。                                         
+*                                                                          

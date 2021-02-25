@@ -1,0 +1,6 @@
+U1 &PURPOSE&                                                               
+*  Use this task to add new http allowlist entries according to transaction
+=   <DS:TRAN.UCON_CHW>UCON_CHW.</>                                         
+*  In case in previous tasks an https/http connection is created, the      
+   schema is added to all enabled context types.                           
+*                                                                          

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>1</LANG>
+<ENTRY>为导航配置 FLP (/UI2/FLP_SYS_CONF)</ENTRY>
+<LENGTH>102</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>D</LANG>
+<ENTRY>FLP für Navigation konfigurieren (/UI2/FLP_SYS_CONF)</ENTRY>
+<LENGTH>102</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>E</LANG>
+<ENTRY>Configure FLP for Navigation</ENTRY>
+<LENGTH>102</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>F</LANG>
+<ENTRY>Configurer barre de lancement SAP Fiori pour la navigation (/UI2/FLP_SYS_CONF)</ENTRY>
+<LENGTH>102</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>J</LANG>
+<ENTRY>ナビゲーションの FLP 設定 (/UI2/FLP_SYS_CONF)</ENTRY>
+<LENGTH>102</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>P</LANG>
+<ENTRY>Configurar launchpad do SAP Fiori para navegação (/UI2/FLP_SYS_CONF)</ENTRY>
+<LENGTH>102</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>R</LANG>
+<ENTRY>Сконфигурировать FLP для навигации (/UI2/FLP_SYS_CONF)</ENTRY>
+<LENGTH>102</LENGTH>
+</TEXTPOOLT>
+</TEXTPOOLT>
+</asx:values>
+</asx:abap>

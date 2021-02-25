@@ -1,0 +1,13 @@
+U1 &PURPOSE&                                                               
+*  Use this task to publish the determined service groups according to     
+   transaction                                                             
+=   <DS:TRAN./IWFND/V4_ADMIN>/IWFND/V4_ADMIN.</>                           
+*                                                                          
+*  When publishing a service group the following steps will be executed:   
+N1 Publish service group, in case it is not already published              
+N1 Activate ICF node /sap/opu/odata4                                       
+U1 Troubleshooting                                                         
+*  In case of issues try to activate the service group manually with       
+   transaction                                                             
+=   <DS:TRAN./IWFND/V4_ADMIN>/IWFND/V4_ADMIN.</>                           
+*                                                                          

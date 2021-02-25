@@ -1,0 +1,11 @@
+U1 &PURPOSE&                                                               
+*  Sie verwenden diese Aufgabe, um die folgenden Aliasse im System         
+   (Transaktion <DS:TRAN.SM30>SM30</>) anzulegen:                          
+B1 Systemalias-Zuordnung (<ZH>/UI2/V_ALIASMAP):</> Legen Sie Einträge für  
+   alle Quellen aus /UI2/SYSTEMALIAS an; der Zielsystem-Alias ist leer,    
+   damit er dem lokalen System zugeordnet wird.                            
+B1 Kundensystem-Alias (<ZH>/UI2/VC_SYSALIAS):</> Legen Sie den Alias       
+   'FIORI_MENU' an.                                                        
+U1 &DEPENDENCIES&                                                          
+*  Die Aufgabe 'Workbench-Auftrag anlegen/auswählen (SE09)' muss           
+   Präprozessor dieser Aufgabe sein.                                       

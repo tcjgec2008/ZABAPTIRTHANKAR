@@ -1,0 +1,9 @@
+U1 &PURPOSE&                                                               
+*  Use this task to create the following aliases in the system (transaction
+=   <DS:TRAN.SM30>SM30</>):                                                
+B1 System Alias Mapping (<ZH>/UI2/V_ALIASMAP):</> create entries for all   
+   sources from <ZH>/UI2/V_SYSALIAS</>; the 'Target System Alias' is       
+   maintained empty to map to the local system                             
+U1 &DEPENDENCIES&                                                          
+*  The task 'Create / Select Workbench Request (SE09)' must be preprocessor
+   of this task.                                                           

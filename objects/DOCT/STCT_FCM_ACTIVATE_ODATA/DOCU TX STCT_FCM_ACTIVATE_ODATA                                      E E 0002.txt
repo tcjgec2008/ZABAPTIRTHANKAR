@@ -1,0 +1,38 @@
+U1 &PURPOSE&                                                               
+*  Use this task to activate the determined OData services according to    
+   transaction                                                             
+=   <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERVICE.</>                 
+*  The services will be created with the prefix and in the package that is 
+   defined in the task 'Set transport options for to be activated OData    
+   Services'.                                                              
+*  OData services are activated in processing mode 'Co-deployed only'      
+   except for OData service '/IWFND/TASKPROCESSING' which is activated in  
+   processing mode 'Routing-based' using the SAP System Alias defined in   
+   the UI.                                                                 
+*  The activation of an OData service always processes the steps:          
+N1 Create OData service; if the OData service is already available, it will
+   not be created again (i.e. it will not change processing mode, prefix or
+   package assignment)                                                     
+N1 Assign SAP System Assign Alias, if processing mode is not 'Co-deployed  
+   only'                                                                   
+N1 Activate ICF node                                                       
+*  The result of each step is reflected in the detailed log (Status OData  
+   service / Status ICF node / Status Alias).                              
+U1 &REALIZE&                                                               
+*  Enter SAP System Alias used for OData service '/IWFND/TASKPROCESSING'   
+U1 &DEPENDENCIES&                                                          
+*  The task 'Set transport options for to be activated OData Services' must
+   be preprocessor of this task.                                           
+U1 Troubleshooting                                                         
+*  In case of issues try to activate the service manually with transaction 
+=   <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERVICE.</>                 
+*  The detailed log message 'diff. proc. mode' indicates that the service  
+   is already available, but not in processing mode 'Co-deployed only'. In 
+   case the OData service is activated with the system alias 'LOCAL', no   
+   error will be shown, because from functional point of view the          
+   configuration is working (log message: diff. proc. mode / Alias 'LOCAL' 
+   found)                                                                  
+*  After activation errors have been solved, rerun this task list with the 
+   same configuration, so that the corresponding roles are created         
+   correctly.                                                              
+*                                                                          

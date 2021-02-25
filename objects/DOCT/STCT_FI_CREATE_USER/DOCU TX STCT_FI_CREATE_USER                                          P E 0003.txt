@@ -1,0 +1,27 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza esta tarefa para a criação de usuários e a geração de      
+   funções de aplicação SAP segundo a transação <DS:TRAN.SU01>SU01</> e    
+   <DS:TRAN.PFCG>PFCG.</>                                                  
+*                                                                          
+*  O usuário é criado segundo o nome da função:                            
+*  Prefixo do usuário: <(><<)>P>                                           
+*  Índice: <(><<)>ÍNDICE> (o índice é a posição da entrada na tabela de    
+   seleção)                                                                
+*  Função: <(><<)>AA----->_<(><<)>BB----->_<(><<)>CC------->               
+*  Usuário: <(><<)>P><(><<)>ÍNDICE>_<(><<)>AA><(><<)>BB><(><<)>CC>         
+*                                                                          
+U2 Exemplo                                                                 
+*  Prefixo do usuário: T                                                   
+*  Índice: 110                                                             
+*  Função: SAP_BR_AP_MANAGER_AU                                            
+*  Usuário: T110_APMAAU                                                    
+*                                                                          
+U1 &REALIZE&                                                               
+*  Atualize as seguintes configurações:                                    
+B1 Prefixo do usuário                                                      
+B1 O sobrenome é definido para o nome da função <(><<)>FUNÇÃO>             
+B1 Senha, repetir senha                                                    
+B1 Função adicional (opcional)                                             
+B1 Crie os usuários existentes novamente - se o usuário já existir, ele    
+   será eliminado primeiro                                                 
+*                                                                          

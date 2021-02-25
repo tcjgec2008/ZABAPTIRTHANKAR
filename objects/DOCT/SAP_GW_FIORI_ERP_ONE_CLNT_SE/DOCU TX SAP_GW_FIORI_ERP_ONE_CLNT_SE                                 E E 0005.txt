@@ -1,0 +1,7 @@
+*                                                                          
+U1 &PURPOSE&                                                               
+*  Use this this task list to configure Gateway and Fiori settings for an  
+   embedded deployment.                                                    
+*  The task list consists of tasks for the Gateway Initial Setup, Fiori    
+   Launchpad Configuration and OData Service Activation.                   
+*                                                                          

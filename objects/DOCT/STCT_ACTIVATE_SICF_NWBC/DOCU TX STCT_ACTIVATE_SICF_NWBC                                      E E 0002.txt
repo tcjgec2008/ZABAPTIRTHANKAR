@@ -1,0 +1,6 @@
+U1 &PURPOSE&                                                               
+*  Use this task to activate the following HTTP services according to      
+   transaction                                                             
+=   <DS:TRAN.SICF>SICF</>:                                                 
+B1 /sap/bc/nwbc/*                                                          
+B1 /sap/bc/ui2/nwbc/nwbc_api                                               

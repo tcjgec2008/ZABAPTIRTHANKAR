@@ -1,0 +1,5 @@
+METHOD IF_STCTM_TASK~GET_DESCRIPTION.
+
+  rv_descr = 'Create System Alias ''FIORI_MENU'''(001).
+
+ENDMETHOD.

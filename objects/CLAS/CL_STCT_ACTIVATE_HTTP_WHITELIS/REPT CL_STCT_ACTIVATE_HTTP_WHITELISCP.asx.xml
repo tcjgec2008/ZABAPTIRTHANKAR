@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>1</LANG>
+<ENTRY>激活新 HTTP 白名单维护 (UCON_CHW)</ENTRY>
+<LENGTH>100</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>D</LANG>
+<ENTRY>Neue HTTP-Whitelist-Pflege aktivieren (UCON_CHW)</ENTRY>
+<LENGTH>100</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>E</LANG>
+<ENTRY>Activate HTTP Allowlist Maintenance (UCON_CHW)</ENTRY>
+<LENGTH>100</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>F</LANG>
+<ENTRY>Activer nouvelle gestion de listes blanches HTTP (UCON_CHW)</ENTRY>
+<LENGTH>100</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>J</LANG>
+<ENTRY>新しい HTTP ホワイトリスト更新の有効化 (UCON_CHW)</ENTRY>
+<LENGTH>100</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>P</LANG>
+<ENTRY>Ativar atualização de lista branca HTTP (UCON_CHW)</ENTRY>
+<LENGTH>100</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>R</LANG>
+<ENTRY>Активировать новое ведение белого списка HTTP (UCON_CHW)</ENTRY>
+<LENGTH>100</LENGTH>
+</TEXTPOOLT>
+</TEXTPOOLT>
+</asx:values>
+</asx:abap>

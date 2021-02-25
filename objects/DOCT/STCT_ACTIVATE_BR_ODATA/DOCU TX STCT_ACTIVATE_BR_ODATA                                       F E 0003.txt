@@ -1,0 +1,33 @@
+U1 &PURPOSE&                                                               
+*  Cette tâche vous permet d’activer les services OData définis            
+   conformément à la transaction <DS:TRAN./IWFND/MAINT_SERVICE>            
+=  /IWFND/MAINT_SERVICE</>.                                                
+*  Les services sont créés avec le préfixe et dans le package qui a été    
+   défini avec la tâche « Définir options de transport pour les services   
+   OData à activer ».                                                      
+*  L'activation d’un service OData s’effectue toujours selon les étapes    
+   suivantes :                                                             
+N1 Créez un service OData ; si le service OData est déjà disponible, il    
+   n’est pas créé de nouveau (c’est-à-dire qu’il ne modifiera pas le mode  
+   de traitement, le préfixe ou l’affectation de package).                 
+N1 Affectez l'alias ; si le mode de traitement n’est pas « Uniquement en   
+   cas de déploiement intégré ».                                           
+N1 Activez le noeud ICF.                                                   
+*  Le résultat de chaque étape est également affiché dans le journal       
+   détaillé (Statut du service OData/Statut de l’alias/Statut du noeud     
+   ICF).                                                                   
+U1 &DEPENDENCIES&                                                          
+*  La tâche « Définir options de transport pour les services OData à       
+   activer » doit être le préprocesseur de cette tâche.                    
+U1 Correction des erreurs                                                  
+*  Si des problèmes se produisent, essayez d’activer manuellement le       
+   service via la transaction <DS:TRAN./IWFND/MAINT_SERVICE>               
+=  /IWFND/MAINT_SERVICE</>.                                                
+*  Le message de journal détaillé « Autre mode de traitement » indique que 
+   le service est déjà disponible mais pas en mode de traitement avec      
+   déploiement intégré.                                                    
+*  Une fois l’erreur d'activation corrigée, vous exécutez à nouveau la     
+   liste de tâches avec la même configuration pour que les rôles co        
+=  rrespondants soient correctement créés.                                 
+*                                                                          
+*                                                                          

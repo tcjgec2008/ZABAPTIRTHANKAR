@@ -1,0 +1,13 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza essa tarefa para criar um destino HTTPS local com a        
+   convenção de nomes padrão <ZH><(><<)>SID>CLNT<(><<)>CLIENT>_HTTPS </> e 
+   o nome de alias correspondente para esse sistema (mediante as transações
+=   <DS:TRAN.SM59>SM59</> e <DS:TRAN.SM30>SM30):</>                        
+*  ·,,Alias de sistema de cliente:<ZH> /UI2/VC_SYSALIAS</>                 
+*  ·,,Atribuição de alias de sistema: <ZH>/UI2/V_ALIASMAP</>               
+*                                                                          
+U1 &DEPENDENCIES&                                                          
+*  As tarefas 'Criar/selecionar ordem de workbench (SE09)' devem ser um    
+   pré-processador desta tarefa.                                           
+U1 &REALIZE&                                                               
+B1 Verifique e atualize os dados de conexão HTTPS.                         

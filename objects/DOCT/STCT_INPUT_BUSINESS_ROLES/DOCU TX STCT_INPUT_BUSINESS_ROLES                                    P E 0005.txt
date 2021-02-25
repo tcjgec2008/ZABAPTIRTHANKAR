@@ -1,0 +1,19 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza esta tarefa para inserir uma lista de funções de aplicação 
+   SAP.                                                                    
+U1 &REALIZE&                                                               
+*  Insira funções da biblioteca de apps Fiori no editor ou carregue as     
+   mesmas para o editor.                                                   
+*  A tarefa verifica se as funções são funções de aplicação SAP (SAP_BR*) e
+   se se encontram disponíveis.                                            
+U1 &FURTHER_HINTS&                                                         
+*  Na biblioteca de apps Fiori, você encontra mais informações sobre       
+   conteúdo/apps:                                                          
+*  <DS><DS:REPN.STCT_URL_FIORI_APPS_LIB_ROLES> https://fioriappslibrary.han
+=  a.ondemand.com/sap/fix/externalViewer/#/filters/RoleNames</></>         
+U1                                                                         
+U1 Eliminação de erros                                                     
+*  Não existem funções SAP_BR* disponíveis/selecionáveis: Os componentes   
+   SAP Fiori não estão instalados                                          
+*  Verificar a nota SAP 2704570 - nota composta: Ativação rápida para SAP  
+   Fiori em SAP S/4HANA para pré-requisitos                                

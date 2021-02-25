@@ -1,0 +1,19 @@
+U1 &PURPOSE&                                                               
+*  このタスクを使用して、FLP コンテンツ有効化用の SAP ビジネスロール (SAP_B                            
+   R*) を選択します。                                                             
+U1 &REALIZE&                                                               
+*                                                                          
+U1 &REALIZE&                                                               
+*  有効化するロールを選択するか、または選択を解除                                                 
+U1 &FURTHER_HINTS&                                                         
+*  含まれているコンテンツ/アプリの詳細については、Fiori アプリライブラリを                                 
+   参照してください。                                                               
+*  <DS><DS:REPN.STCT_URL_FIORI_APPS_LIB_ROLES> https://fioriappslibrary.han
+   a.ondemand.com/sap/fix/externalViewer/#/filters/RoleNames</></>         
+U1 トラブルシューティング                                                             
+*  利用可能/選択可能な SAP_BR* ロールがありません。SAP Fiori コンポーネント                          
+   がインストールされていません                                                          
+*  SAP ノート 2704570 - 総括 SAP ノート: S/4HANA における Fiori の短期有効                  
+   化で前提条件を確認                                                               
+U1                                                                         
+U1                                                                         

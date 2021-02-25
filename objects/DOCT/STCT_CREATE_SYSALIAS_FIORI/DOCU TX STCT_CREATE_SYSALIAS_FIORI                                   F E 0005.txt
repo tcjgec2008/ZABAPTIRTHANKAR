@@ -1,0 +1,11 @@
+U1 &PURPOSE&                                                               
+*  Cette tâche vous permet de créer les alias suivants dans le système     
+   (transaction <DS:TRAN.SM30>SM30</>) :                                   
+B1 Affectation de l’alias système (<ZH>/UI2/V_ALIASMAP) :</> créez des     
+   entrées pour toutes les sources de /UI2/SYSTEMALIAS ; l'alias du système
+   cible est vide afin d’être affecté au système local.                    
+B1 Alias système client (<ZH>/UI2/VC_SYSALIAS) :</> Créez l'alias          
+   « FIORI_MENU ».                                                         
+U1 &DEPENDENCIES&                                                          
+*  La tâche "Créer/Sélectionner ordre du Workbench (SE09)" doit être un    
+   préprocesseur de cette tâche.                                           

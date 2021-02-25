@@ -1,0 +1,4 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza esta tarefa para ativar os seguintes serviços HTTP de      
+   acordo com a transação <DS:TRAN.SICF>SICF</>.                           
+B1 /sap/bc/nwbc/*                                                          

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>1</LANG>
+<ENTRY>设置 SAP 系统别名</ENTRY>
+<LENGTH>40</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>D</LANG>
+<ENTRY>SAP-Systemalias setzen</ENTRY>
+<LENGTH>40</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>E</LANG>
+<ENTRY>Set SAP System Alias for Fiori Launchpad</ENTRY>
+<LENGTH>80</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>F</LANG>
+<ENTRY>Définir alias système SAP</ENTRY>
+<LENGTH>40</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>J</LANG>
+<ENTRY>SAP システムエイリアスの設定</ENTRY>
+<LENGTH>40</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>P</LANG>
+<ENTRY>Definir alias sistema SAP</ENTRY>
+<LENGTH>40</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>R</LANG>
+<ENTRY>Установить псевдоним системы SAP</ENTRY>
+<LENGTH>40</LENGTH>
+</TEXTPOOLT>
+</TEXTPOOLT>
+</asx:values>
+</asx:abap>

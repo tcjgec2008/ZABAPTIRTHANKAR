@@ -1,0 +1,24 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza esta tarefa para determinar opções de transporte para os   
+   serviços OData a serem ativados.                                        
+U1 &CHECK&                                                                 
+*  A tarefa verifica se modificações válidas para vários mandantes e o     
+   registro automático das modificações são permitidos de acordo com as    
+   configurações na transação <DS:TRAN.SCC4>SCC4</>.                       
+U1 &REALIZE&                                                               
+*  Insira o prefixo e o pacote e indique como os serviços OData devem ser  
+   criados.                                                                
+*  Por padrão, os serviços são criados com o prefixo <ZK>Z</> no pacote    
+   $tmp.                                                                   
+*  Se um pacote transportável for selecionado, são necessárias uma ordem de
+   workbench e uma de customizing.                                         
+*  A ordem de workbench registra dados para o serviço OData e ICF enquanto 
+   que a ordem de customizing registra a atribuição do alias do sistema ao 
+   serviço OData.                                                          
+*  Você pode criar uma nova ordem ou uma nova tarefa para o seu usuário ou 
+   selecionar uma ordem já existente.                                      
+*  Se as modificações válidas para várias mandantes e o registro automático
+   das modificações não forem permitidos, marque os campos de seleção para 
+   modificar as configurações para o mandante.                             
+*                                                                          
+*                                                                          

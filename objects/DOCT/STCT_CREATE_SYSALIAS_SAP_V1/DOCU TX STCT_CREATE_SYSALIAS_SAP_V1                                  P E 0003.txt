@@ -1,0 +1,14 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza esta tarefa para criar os seguintes nomes de alias em um   
+   sistema gateway NW para o back-end ABAP (transação <DS:TRAN.SM30>SM30</>
+=  ):                                                                      
+*  Alias de sistema SAP:  <ZH>/IWFND/V_DFSYAL</>                           
+*  Alias de sistema de cliente:<ZH> /UI2/VC_SYSALIAS</>                    
+*                                                                          
+U1 &DEPENDENCIES&                                                          
+*  As tarefas 'Criar conexões ABAP/HTTP(S) para sistema da SAP (SM59)',    
+   'Criar/selecionar ordem de customizing (SE09)' e 'Criar/selecionar ordem
+   de workbench (SE09)’ têm que ser pré-processadores desta tarefa.        
+*                                                                          
+U1 &REALIZE&                                                               
+B1 Insira o nome de alias.                                                 

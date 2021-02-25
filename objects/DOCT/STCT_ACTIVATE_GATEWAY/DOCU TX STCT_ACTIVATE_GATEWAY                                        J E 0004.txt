@@ -1,0 +1,17 @@
+U1 &PURPOSE&                                                               
+*  SAP NetWeaver Gateway を有効化するには、このタスクを使用します。これは以                         
+   下のトランザクションを実行するのと同じです。                                                  
+*  <DS:TRAN./IWFND/IWF_ACTIVATE>IWFND/IWF_ACTIVATE</>                      
+*  すべてのカスタマイジングステップを実行したら、最終ステップで SAP NetWeav                              
+   er Gateway 自体を有効化します。このアクティビティによって、SAP NetWeaver                        
+    Gateway のすべてのサービスが開始されます。                                              
+*  トランザクション <DS:TRAN./IWFND/IWF_ACTIVATE>IWFND/IWF_ACTIVATE</> を実          
+   行して、SAP NetWeaver Gateway サービスを無効化することもできます。すべて                         
+   のサービスの実行は停止され、サービスを呼び出すシステムへエラーメッセージ                                    
+   が送信されます。                                                                
+U1 &PREREQUISITES&                                                         
+U1 &DEPENDENCIES&                                                          
+U1 &CHECK&                                                                 
+U1 &REALIZE&                                                               
+U1 &EXAMPLE&                                                               
+*                                                                          

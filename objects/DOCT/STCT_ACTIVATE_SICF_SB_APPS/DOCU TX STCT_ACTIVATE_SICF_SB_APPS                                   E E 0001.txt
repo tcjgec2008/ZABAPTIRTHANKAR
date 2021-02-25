@@ -1,0 +1,21 @@
+U1 &PURPOSE&                                                               
+*  Use this task to activate the following HTTP services according to      
+   transaction                                                             
+=   <DS:TRAN.SICF>SICF</>:                                                 
+*                                                                          
+B1 /sap/bc/<path>/sap/sbrt_appss1                                          
+B1 /sap/bc/<path>/sap/sb_apps_assocs1                                      
+B1 /sap/bc/<path>/sap/sb_apps_dds1                                         
+B1 /sap/bc/<path>/sap/sb_apps_evals1                                       
+B1 /sap/bc/<path>/sap/sb_apps_kpis1                                        
+B1 /sap/bc/<path>/sap/sb_apps_libs1                                        
+B1 /sap/bc/<path>/sap/sb_apps_tiles1                                       
+B1 /sap/bc/<path>/sap/sb_apps_wss1                                         
+B1 /sap/bc/<path>/sap/ssbtileslibs1                                        
+B1 /sap/bc/<path>/sap/ssbtiless1                                           
+B1 /sap/bc/<path>/sap/analyticsdts1                                        
+*                                                                          
+*  <path>: <ZH>bsp </>/ ui5_ui5                                            
+*                                                                          
+*  The services will be activated for both paths bsp and ui5_ui5.          
+*                                                                          

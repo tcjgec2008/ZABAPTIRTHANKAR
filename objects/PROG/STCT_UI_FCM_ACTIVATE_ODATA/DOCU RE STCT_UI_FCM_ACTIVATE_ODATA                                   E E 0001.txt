@@ -1,0 +1,2 @@
+/: INCLUDE STCT_FCM_ACTIVATE_ODATA OBJECT DOKU ID TX                       
+AS                                                                         

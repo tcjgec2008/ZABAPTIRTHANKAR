@@ -1,0 +1,16 @@
+U1 &PURPOSE&                                                               
+*  使用此任务选择要进行 FLP 内容激活的 SAP 业务角色 (SAP_BR*)。                                
+U1 &REALIZE&                                                               
+*                                                                          
+U1 &REALIZE&                                                               
+*  选择或取消选择要激活的角色                                                           
+U1 &FURTHER_HINTS&                                                         
+*  有关已包含内容/应用的详细信息，另请参阅 Fiori 应用库。                                         
+*  <DS><DS:REPN.STCT_URL_FIORI_APPS_LIB_ROLES> https://fioriappslibrary.han
+   a.ondemand.com/sap/fix/externalViewer/#/filters/RoleNames</></>         
+U1 故障排除                                                                    
+*  无 SAP_BR* 角色可用/可选：SAP Fiori 组件未安装                                       
+*  检查 SAP Note 2704570 - 复合 SAP 注释：在 S/4HANA 中快速激活 Fiori 作为                
+   前提条件                                                                    
+U1                                                                         
+U1                                                                         

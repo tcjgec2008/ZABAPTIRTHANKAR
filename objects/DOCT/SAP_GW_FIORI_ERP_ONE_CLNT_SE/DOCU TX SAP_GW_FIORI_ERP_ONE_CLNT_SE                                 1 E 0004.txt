@@ -1,0 +1,6 @@
+*                                                                          
+U1 &PURPOSE&                                                               
+*  使用此任务在 ERP 系统所在的同一客户端中配置 Gateway 和 Fiori。                               
+*  任务列表包含以下任务：Gateway 初始设置、Fiori 快速启动板配置和 OData 服                          
+   务激活。                                                                    
+*                                                                          

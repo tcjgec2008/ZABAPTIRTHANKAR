@@ -1,0 +1,7 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza esta tarefa para a inserção de entradas de lista branca    
+   HTTP de acordo com a transação <DS:TRAN.UCON_CHW><DS:TRAN.UCON_CHW>     
+=  UCON_CHW</></>.                                                         
+*  Se em tarefas anteriores tiver sido criada uma conexão HTTPS/HTTP, será 
+   inserido o esquema de todos os tipos de contexto ativados.              
+*                                                                          

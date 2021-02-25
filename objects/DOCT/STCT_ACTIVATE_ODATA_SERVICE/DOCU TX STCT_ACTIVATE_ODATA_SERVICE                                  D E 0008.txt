@@ -1,0 +1,21 @@
+U1 &PURPOSE&                                                               
+*  Sie verwenden diese Aufgabe, um OData-Services für die Aktivierung gemäß
+   der Transaktion <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERVICE</>   
+   auszuwählen.                                                            
+*  Für die Aktivierung werden die OData-Services vom Backend-System        
+   abgerufen und auf dem SAP-Gateway-System aktiviert. Der Systemalias wird
+   zugewiesen und der ICF-Knoten aktiviert.                                
+B1 Wenn der OData-Service bereits auf dem SAP-Gateway-System vorhanden ist 
+   und das System nicht zugewiesen ist, wird der Systemalias dem           
+   OData-Service hinzugefügt. Der ICF-Knotenstatus bleibt unverändert.     
+B1 Wenn der OData-Service nicht auf dem Backend-System vorhanden ist, wird 
+   eine Fehlermeldung angezeigt.                                           
+U1 &REALIZE&                                                               
+*  Wählen Sie OData-Services für die Aktivierungen aus oder entmarkieren   
+   Sie sie.                                                                
+*                                                                          
+U1 Fehlerbehebung                                                          
+*  Sollten Probleme auftreten, versuchen Sie den Service manuell über die  
+   Transaktion <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERVICE</> zu    
+   aktivieren.                                                             
+*                                                                          

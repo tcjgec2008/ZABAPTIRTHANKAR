@@ -1,0 +1,8 @@
+*                                                                          
+U1 &PURPOSE&                                                               
+*  Cette liste de tâches vous permet de configurer la passerelle et Fiori  
+   sur le même client dans lequel se trouve le système ERP.                
+*  La liste de tâches contient des tâches pour la configuration initiale de
+   la passerelle, la configuration de la barre de lancement Fiori et       
+   l'activation du service OData.                                          
+*                                                                          

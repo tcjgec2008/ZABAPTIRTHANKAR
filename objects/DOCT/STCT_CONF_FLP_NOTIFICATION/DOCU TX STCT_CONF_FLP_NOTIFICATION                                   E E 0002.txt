@@ -1,0 +1,20 @@
+U1 &PURPOSE&                                                               
+*  Use this task to set the following FLP Properties for all clients       
+   according transaction                                                   
+=     <DS:TRAN./UI2/FLP_SYS_CONF>/UI2/FLP_SYS_CONF</> or for current client
+   according transaction                                                   
+=    <DS:TRAN./UI2/FLP_CUS_CONF>/UI2/FLP_CUS_CONF</>.                      
+B1 NOTIFICATIONS = true                                                    
+B1 NOTIFICATIONS_UI = true                                                 
+*  In case the FLP Property with a different value already exists, confirm 
+   to overwrite the setting in the parameter UI.                           
+U1 &REALIZE&                                                               
+*  Select to set the FLP Property in current client or for all clients.    
+*  In case the FLP Property has a different state, confirm to overwrite the
+   setting in the parameter UI.                                            
+*                                                                          
+U1 &DEPENDENCIES&                                                          
+*  The task 'Create / Select Workbench Request (SE09)' must be preprocessor
+   of this task.                                                           
+*  The task 'Create / Select Customizing Request (SE09)' must be           
+   preprocessor of this task.                                              

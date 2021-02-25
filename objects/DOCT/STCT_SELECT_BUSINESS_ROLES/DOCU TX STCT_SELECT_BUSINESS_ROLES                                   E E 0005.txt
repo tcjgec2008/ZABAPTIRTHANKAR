@@ -1,0 +1,17 @@
+U1 &PURPOSE&                                                               
+*  Use this task to select SAP business roles (SAP_BR*) for FLP content    
+   activation.                                                             
+U1 &REALIZE&                                                               
+*  Select or deselect roles for activation                                 
+U1 &FURTHER_HINTS&                                                         
+*  See also the Fiori Apps Library for more information about contained    
+   content/apps:                                                           
+*                                                                          
+=  <DS:REPN.STCT_URL_FIORI_APPS_LIB_ROLES> https://fioriappslibrary.hana.on
+=  demand.com/sap/fix/externalViewer/#/filters/RoleNames</>                
+U1 Troubleshooting                                                         
+*  If no SAP_BR* roles are available SAP Fiori components are not          
+   installed.                                                              
+*  Check SAP Note 2902673 - Rapid Activation for SAP Fiori in SAP S/4HANA -
+   Overview for prerequisites.                                             
+U1                                                                         

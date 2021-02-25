@@ -1,0 +1,14 @@
+U1 &PURPOSE&                                                               
+*  使用此任务可激活 SAP NetWeaver Gateway。其效果等同于执行事务                               
+*  <DS:TRAN./IWFND/IWF_ACTIVATE>IWFND/IWF_ACTIVATE</>                      
+*  在执行所有定制步骤之后，最后一步是激活 SAP NetWeaver Gateway 本身。此活                         
+   动将启动所有 SAP NetWeaver Gateway 服务。                                        
+*  还可以通过运行事务 <DS:TRAN./IWFND/IWF_ACTIVATE>IWFND/IWF_ACTIVATE</> 来          
+   取消激活 SAP NetWeaver Gateway 服务。所有服务将停止运行，并会向所有需要                         
+   这些服务的系统发送一条错误消息。                                                        
+U1 &PREREQUISITES&                                                         
+U1 &DEPENDENCIES&                                                          
+U1 &CHECK&                                                                 
+U1 &REALIZE&                                                               
+U1 &EXAMPLE&                                                               
+*                                                                          

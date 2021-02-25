@@ -1,0 +1,14 @@
+U1 &PURPOSE&                                                               
+*  Sie verwenden diese Aufgabe, um die folgenden HTTP-Services gemäß der   
+   Transaktion <DS:TRAN.SICF>SICF</> zu aktivieren.                        
+B1 /sap/bc/webdynpro/sap/SUI_TM_MM_APP                                     
+B1 /sap/bw/ina                                                             
+B1 /sap/bw/ina/GetServerInfo                                               
+B1 /sap/bw/ina/GetResponse                                                 
+B1 /sap/bw/Mime                                                            
+B1 /sap/bc/ui5_ui5/sap/ssbtileslibs1                                       
+B1 /sap/bc/ui5_ui5/sap/ssbtiless1                                          
+B1 /sap/bc/bsp/sap/sakp_genui_a_s1                                         
+B1 /sap/bc/ui5_ui5/sap/sbrt_appss1                                         
+*                                                                          
+U1                                                                         

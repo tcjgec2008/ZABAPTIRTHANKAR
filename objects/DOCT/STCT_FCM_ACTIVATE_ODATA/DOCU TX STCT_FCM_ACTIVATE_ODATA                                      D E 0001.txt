@@ -1,0 +1,14 @@
+U1 &PURPOSE&                                                               
+*  Sie verwenden diese Aufgabe, um die festgelegten OData-Services zu      
+   aktivieren.                                                             
+*  Die Services werden mit dem Präfix "Z" und im lokalen Paket mit "$TMP"  
+   angelegt.                                                               
+*  Der Verarbeitungsmodus ist auf "Integriertes Deployment" (eingebettetes 
+   Deployment) gesetzt.                                                    
+U1 Fehlerbehebung                                                          
+*  Sollten Probleme auftreten, versuchen Sie den Service manuell über die  
+   Transaktion <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERVICE</> zu    
+   aktivieren.                                                             
+*                                                                          
+*                                                                          
+*                                                                          

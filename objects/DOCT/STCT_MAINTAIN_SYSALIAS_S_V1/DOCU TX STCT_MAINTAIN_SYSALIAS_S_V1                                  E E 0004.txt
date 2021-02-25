@@ -1,0 +1,14 @@
+U1 &PURPOSE&                                                               
+*                                                                          
+*  Use this task to create 'System Aliases' and 'Alias Mappings' for the   
+   following tables (transaction                                           
+=       <DS:TRAN.SM30>SM30</>):                                            
+B1 SAP System Alias:  <ZH>/IWFND/V_DFSYAL</>                               
+B1 System Alias Mapping: <ZH>/UI2/V_ALIASMAP</>                            
+B1 Customer System Alias:<ZH> /UI2/VC_SYSALIAS / </>System Alias Mapping:  
+   <ZH>/UI2/V_ALIASMAP</>                                                  
+U1 &DEPENDENCIES&                                                          
+*  The tasks 'Create ABAP / HTTP(S) Connections for SAP System (SM59)',    
+   'Create / Select Customizing Request (SE09)' and 'Create / Select       
+   Workbench Request (SE09)' must be preprocessor of this task.            
+*                                                                          

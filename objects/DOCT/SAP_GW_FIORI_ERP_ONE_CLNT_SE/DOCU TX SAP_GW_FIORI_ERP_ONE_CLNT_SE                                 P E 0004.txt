@@ -1,0 +1,8 @@
+*                                                                          
+U1 &PURPOSE&                                                               
+*  Você utiliza esta lista de tarefas para a configuração de Gateway e     
+   Fiori no mesmo client no qual o sistema ERP se encontra.                
+*  A lista de tarefas contém tarefas para a configuração inicial do        
+   gateway, a configuração do Fiori Launchpad e a ativação do serviço      
+   OData.                                                                  
+*                                                                          

@@ -1,0 +1,17 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza esta tarefa para a ativação de SAP NetWeaver Gateway. Isto 
+   corresponde à execução da transação                                     
+*  <DS:TRAN./IWFND/IWF_ACTIVATE>IWFND/IWF_ACTIVATE</>                      
+*  Depois de você ter executado todas as etapas de customizing, a última   
+   etapa é a ativação de SAP NetWeaver Gateway. Esta atividade inicia todos
+   os serviços SAP NetWeaver Gateway.                                      
+*  Você também pode desativar os serviços SAP NetWeaver Gateway por meio da
+   transação <DS:TRAN./IWFND/IWF_ACTIVATE>IWFND/IWF_ACTIVATE</>. Todos os  
+   serviços são interrompidos e é enviada uma mensagem de erro a cada      
+   sistema que os serviços chamam.                                         
+U1 &PREREQUISITES&                                                         
+U1 &DEPENDENCIES&                                                          
+U1 &CHECK&                                                                 
+U1 &REALIZE&                                                               
+U1 &EXAMPLE&                                                               
+*                                                                          

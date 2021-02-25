@@ -1,0 +1,19 @@
+U1 &PURPOSE&                                                               
+*  Sie verwenden diese Aufgabe, um eine Liste von SAP-Anwendungsrollen     
+   einzugeben.                                                             
+U1 &REALIZE&                                                               
+*  Fügen Sie Rollen aus der Fiori-Apps-Bibliothek in den Editor ein oder   
+   laden sie Sie in den Editor hoch.                                       
+*  Die Aufgabe prüft, ob Rollen SAP-Anwendungsrollen (SAP_BR*) sind und im 
+   System verfügbar sind.                                                  
+U1 &FURTHER_HINTS&                                                         
+*  In der Fiori-Apps-Bibliothek finden Sie weitere Informationen zu        
+   Content/Apps:                                                           
+*  <DS><DS:REPN.STCT_URL_FIORI_APPS_LIB_ROLES> https://fioriappslibrary.han
+=  a.ondemand.com/sap/fix/externalViewer/#/filters/RoleNames</></>         
+U1                                                                         
+U1 Fehlerbehebung                                                          
+*  Es sind keine SAP_BR*-Rollen verfügbar/auswählbar: SAP-Fiori-Komponenten
+   sind nicht installiert                                                  
+*  SAP-Hinweis 2704570 prüfen - Sammelhinweis: Schnelle Aktivierung für    
+   Fiori in S/4HANA für Voraussetzungen                                    

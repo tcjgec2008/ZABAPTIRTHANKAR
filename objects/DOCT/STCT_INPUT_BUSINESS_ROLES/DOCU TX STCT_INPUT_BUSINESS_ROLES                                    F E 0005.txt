@@ -1,0 +1,18 @@
+U1 &PURPOSE&                                                               
+*  Cette tâche vous permet de saisir la liste des rôles utilisateur SAP.   
+U1 &REALIZE&                                                               
+*  Insérez dans l’éditeur des rôles de la bibliothèque des applications SAP
+   Fiori ou chargez-les dans l'éditeur.                                    
+*  La tâche contrôle si les rôles sont des rôles utilisateur SAP (SAP_BR*) 
+   et s’ils sont disponibles dans le système.                              
+U1 &FURTHER_HINTS&                                                         
+*  Vous trouverez de plus amples informations sur le contenu/les           
+   applications dans la bibliothèque des applications SAP Fiori :          
+*  <DS><DS:REPN.STCT_URL_FIORI_APPS_LIB_ROLES> https://fioriappslibrary.han
+=  a.ondemand.com/sap/fix/externalViewer/#/filters/RoleNames</></>         
+U1                                                                         
+U1 Correction des erreurs                                                  
+*  Aucun rôle SAP_BR* n’est disponible/sélectionnable : les composants SAP 
+   Fiori ne sont pas installées.                                           
+*  Contrôler note SAP 2704570 - Note collective : Activation rapide pour   
+   SAP Fiori dans S/4HANA pour les conditions requises                     

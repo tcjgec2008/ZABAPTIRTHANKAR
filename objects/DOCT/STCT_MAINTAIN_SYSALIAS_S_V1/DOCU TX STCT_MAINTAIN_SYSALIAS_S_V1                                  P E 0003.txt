@@ -1,0 +1,15 @@
+U1 &PURPOSE&                                                               
+*                                                                          
+*  Com esta tarefa, você cria os seguintes alias para um destino RFC       
+   confiável existente (transação <DS:TRAN.SM30>SM30</>):                  
+*  Alias de sistema SAP:  <ZH>/IWFND/V_DFSYAL</>                           
+*  Alias de sistema de cliente:<ZH> /UI2/VC_SYSALIAS</>                    
+*  Atribuição de alias de sistema: <ZH>/UI2/V_ALIASMAP</>                  
+U1 &DEPENDENCIES&                                                          
+*  As tarefas 'Criar conexões ABAP/HTTP(S) para sistema da SAP (SM59)',    
+   'Criar/selecionar ordem de customizing (SE09)' e 'Criar/selecionar ordem
+   de workbench (SE09)’ têm que ser pré-processadores desta tarefa.        
+U1 &REALIZE&                                                               
+B1 Insira um destino RFC confiável.                                        
+B1 Insira o nome de alias.                                                 
+*                                                                          

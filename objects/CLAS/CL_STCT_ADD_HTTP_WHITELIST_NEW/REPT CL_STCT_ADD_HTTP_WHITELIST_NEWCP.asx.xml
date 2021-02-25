@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>1</LANG>
+<ENTRY>将 HTTP(S) 连接添加到新 HTTP 白名单 (UCON_CHW)</ENTRY>
+<LENGTH>110</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>D</LANG>
+<ENTRY>HTTP(S)-Verbindung zu neuer HTTP-Whitelist hinzufügen (UCON_CHW)</ENTRY>
+<LENGTH>110</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>E</LANG>
+<ENTRY>Add HTTP(S) Connection to new HTTP Allowlist (UCON_CHW)</ENTRY>
+<LENGTH>110</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>F</LANG>
+<ENTRY>Ajouter connexion HTTP(S) à la nouvelle liste blanche HTTP (UCON_CHW)</ENTRY>
+<LENGTH>110</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>J</LANG>
+<ENTRY>新しい HTTP ホワイトリストへの HTTP(S) 接続の追加 (UCON_CHW)</ENTRY>
+<LENGTH>110</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>P</LANG>
+<ENTRY>Inserir conexão HTTP(S) para nova lista branca HTTP (UCON_CHW)</ENTRY>
+<LENGTH>110</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>R</LANG>
+<ENTRY>Добавить соединение HTTP(S) к новому белому списку HTTP (UCON_CHW)</ENTRY>
+<LENGTH>110</LENGTH>
+</TEXTPOOLT>
+</TEXTPOOLT>
+</asx:values>
+</asx:abap>

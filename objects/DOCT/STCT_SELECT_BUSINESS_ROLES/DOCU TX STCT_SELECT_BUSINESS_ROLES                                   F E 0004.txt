@@ -1,0 +1,19 @@
+U1 &PURPOSE&                                                               
+*  Cette tâche vous permet de sélectionner les rôles utilisateur SAP       
+   (SAP_BR*) pour l'activation du contenu FLP.                             
+U1 &REALIZE&                                                               
+*                                                                          
+U1 &REALIZE&                                                               
+*  Sélectionnez des rôles pour l’activation ou désélectionnez-les.         
+U1 &FURTHER_HINTS&                                                         
+*  Vous trouverez de plus amples informations sur le contenu/les           
+   applications dans la bibliothèque des applications SAP Fiori :          
+*  <DS><DS:REPN.STCT_URL_FIORI_APPS_LIB_ROLES> https://fioriappslibrary.han
+=  a.ondemand.com/sap/fix/externalViewer/#/filters/RoleNames</></>         
+U1 Correction des erreurs                                                  
+*  Aucun rôle SAP_BR* n’est disponible/sélectionnable : les composants SAP 
+   Fiori ne sont pas installées.                                           
+*  Contrôler note SAP 2704570 - Note collective : Activation rapide pour   
+   SAP Fiori dans S/4HANA pour les conditions requises                     
+U1                                                                         
+U1                                                                         

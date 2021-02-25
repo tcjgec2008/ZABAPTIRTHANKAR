@@ -1,0 +1,17 @@
+U1 &PURPOSE&                                                               
+*  Use this task to activate SAP Gateway. This is equivalent to the        
+   execution of transaction                                                
+=   <DS:TRAN./IWFND/IWF_ACTIVATE>/IWFND/IWF_ACTIVATE.</>                   
+*  After you have performed all customizing steps, the final step is to    
+   activate SAP Gateway itself. This activity will start all the SAP       
+   Gateway services.                                                       
+*  You can also deactivate the SAP Gateway running transaction             
+=   <DS:TRAN./IWFND/IWF_ACTIVATE>/IWFND/IWF_ACTIVATE.</>                   
+*  All services will stop running, and an error message will be sent to any
+   system that calls for the services.                                     
+U1 &PREREQUISITES&                                                         
+U1 &DEPENDENCIES&                                                          
+U1 &CHECK&                                                                 
+U1 &REALIZE&                                                               
+U1 &EXAMPLE&                                                               
+*                                                                          

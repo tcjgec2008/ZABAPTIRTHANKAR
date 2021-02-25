@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>1</LANG>
+<ENTRY>生成 Fiori Foundation 角色（基于 SAP_UI2_USER/ADMIN）</ENTRY>
+<LENGTH>122</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>D</LANG>
+<ENTRY>Fiori-Foundation-Rollen generieren (auf Basis von SAP_UI2_USER/ADMIN)</ENTRY>
+<LENGTH>122</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>E</LANG>
+<ENTRY>Generate Fiori Foundation Roles</ENTRY>
+<LENGTH>122</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>F</LANG>
+<ENTRY>Générer rôles SAP Fiori Foundation (sur la base de SAP_UI2_USER/ADMIN)</ENTRY>
+<LENGTH>122</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>J</LANG>
+<ENTRY>Fiori ファンデーションロールの生成 (SAP_UI2_USER/ADMIN に基づく)</ENTRY>
+<LENGTH>122</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>P</LANG>
+<ENTRY>Gerar funções Fiori Foundation (com base em SAP_UI2_USER/ADMIN)</ENTRY>
+<LENGTH>122</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>R</LANG>
+<ENTRY>Сгенерировать роли основы Fiori (на основе SAP_UI2_USER/ADMIN)</ENTRY>
+<LENGTH>122</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>019</KEY>
+<LANG>1</LANG>
+<ENTRY>无法显示详细信息视图</ENTRY>
+<LENGTH>62</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>019</KEY>
+<LANG>D</LANG>
+<ENTRY>Detailsicht kann nicht angezeigt werden</ENTRY>
+<LENGTH>62</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>019</KEY>
+<LANG>E</LANG>
+<ENTRY>Detail view cannot be displayed</ENTRY>
+<LENGTH>62</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>019</KEY>
+<LANG>F</LANG>
+<ENTRY>Impossible d'afficher la vue détaillée.</ENTRY>
+<LENGTH>62</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>019</KEY>
+<LANG>J</LANG>
+<ENTRY>詳細ビューを照会できません</ENTRY>
+<LENGTH>62</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>019</KEY>
+<LANG>P</LANG>
+<ENTRY>A visão detalhada não pode ser exibida</ENTRY>
+<LENGTH>62</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>019</KEY>
+<LANG>R</LANG>
+<ENTRY>Невозможно просмотреть подробный ракурс</ENTRY>
+<LENGTH>62</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>100</KEY>
+<LANG>1</LANG>
+<ENTRY>前缀：</ENTRY>
+<LENGTH>17</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>100</KEY>
+<LANG>D</LANG>
+<ENTRY>Präfix:</ENTRY>
+<LENGTH>17</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>100</KEY>
+<LANG>E</LANG>
+<ENTRY>Prefix:</ENTRY>
+<LENGTH>17</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>100</KEY>
+<LANG>F</LANG>
+<ENTRY>Préfixe :</ENTRY>
+<LENGTH>17</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>100</KEY>
+<LANG>J</LANG>
+<ENTRY>接頭辞:</ENTRY>
+<LENGTH>17</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>100</KEY>
+<LANG>P</LANG>
+<ENTRY>Prefixo:</ENTRY>
+<LENGTH>17</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>100</KEY>
+<LANG>R</LANG>
+<ENTRY>Префикс:</ENTRY>
+<LENGTH>17</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>101</KEY>
+<LANG>1</LANG>
+<ENTRY>未提供业务角色</ENTRY>
+<LENGTH>54</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>101</KEY>
+<LANG>D</LANG>
+<ENTRY>Keine Anwendungsrollen verfügbar</ENTRY>
+<LENGTH>54</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>101</KEY>
+<LANG>E</LANG>
+<ENTRY>No Business Roles available</ENTRY>
+<LENGTH>54</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>101</KEY>
+<LANG>F</LANG>
+<ENTRY>Aucun rôle utilisateur disponible</ENTRY>
+<LENGTH>54</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>101</KEY>
+<LANG>J</LANG>
+<ENTRY>使用可能なビジネスロールの数</ENTRY>
+<LENGTH>54</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>101</KEY>
+<LANG>P</LANG>
+<ENTRY>Nenhuma função de aplicação disponível</ENTRY>
+<LENGTH>54</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>101</KEY>
+<LANG>R</LANG>
+<ENTRY>Нет доступных ролей приложения</ENTRY>
+<LENGTH>54</LENGTH>
+</TEXTPOOLT>
+</TEXTPOOLT>
+</asx:values>
+</asx:abap>

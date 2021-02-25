@@ -1,0 +1,27 @@
+U1 &PURPOSE&                                                               
+*  Cette tâche vous permet de créer des utilisateurs et de générer des     
+   rôles utilisateur SAP selon les transactions <DS:TRAN.SU01>SU01</> et   
+   <DS:TRAN.PFCG>PFCG.</>                                                  
+*                                                                          
+*  L’utilisateur est créé selon le nom du rôle :                           
+*  Préfixe utilisateur : <(><<)>P>                                         
+*  Index : <(><<)>INDEX> (L’index correspond à la position de l’entrée dans
+   la table de sélection.)                                                 
+*  Rôle : <(><<)>AA----->_<(><<)>BB----->_<(><<)>CC------->                
+*  Utilisateur : <(><<)>P><(><<)>INDEX>_<(><<)>AA><(><<)>BB><(><<)>CC>     
+*                                                                          
+U2 Exemple                                                                 
+*  Préfixe utilisateur : T                                                 
+*  Index : 110                                                             
+*  Rôle : SAP_BR_AP_MANAGER_AU                                             
+*  Utilisateur : T110_APMAAU                                               
+*                                                                          
+U1 &REALIZE&                                                               
+*  Gérez les options suivantes :                                           
+B1 Préfixe utilisateur                                                     
+B1 Le nom de famille est défini sur le nom du rôle <(><<)>RÔLE>.           
+B1 Mot de passe, répéter mot de passe                                      
+B1 Rôle supplémentaire (facultatif)                                        
+B1 Créez à nouveau les utilisateurs existants - si l’utilisateur existe    
+   déjà, il est d'abord supprimé.                                          
+*                                                                          

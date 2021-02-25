@@ -1,0 +1,12 @@
+U1 &PURPOSE&                                                               
+*  Use this task to create the SAP System Aliases 'S4FIN' and 'S4SD' that  
+   are required for Designer Studio Apps. The aliases are assigned to RFC  
+   destination 'NONE' and flagged as 'Local GW'.                           
+*  The aliases are created according the table maintenance view            
+   (transaction                                                            
+=   <DS:TRAN.SM30>SM30</> for the object <ZH>/IWFND/V_DFSYAL</>.           
+*  In case the SAP System Aliases 'S4FIN' and 'S4SD' already exists, the   
+   step will be skipped.                                                   
+U1 &DEPENDENCIES&                                                          
+*  The task 'Create / Select Customizing Request (SE09)' must be           
+   preprocessor of this task.                                              

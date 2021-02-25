@@ -1,0 +1,14 @@
+U1 &PURPOSE&                                                               
+*  Use this task to create the following System Aliases in the Gateway     
+   system for the SAP backend system (transaction                          
+=      <DS:TRAN.SM30>SM30</>):                                             
+*  SAP System Alias:  <ZH>/IWFND/V_DFSYAL</>                               
+*  Customer System Alias:<ZH> /UI2/VC_SYSALIAS</>                          
+*                                                                          
+U1 &DEPENDENCIES&                                                          
+*  The tasks 'Create ABAP / HTTP(S) Connections for SAP System (SM59)',    
+   'Create / Select Customizing Request (SE09)' and 'Create / Select       
+   Workbench Request (SE09)' must be preprocessor of this task.            
+*                                                                          
+U1 &REALIZE&                                                               
+B1 Enter Alias name                                                        

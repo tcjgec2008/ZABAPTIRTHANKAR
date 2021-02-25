@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>1</LANG>
+<ENTRY>维护 SAP 系统的别名</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>D</LANG>
+<ENTRY>Aliasse für SAP-System pflegen</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>E</LANG>
+<ENTRY>Maintain Aliases for SAP System</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>F</LANG>
+<ENTRY>Gérer alias pour système SAP</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>J</LANG>
+<ENTRY>SAP システムエイリアス更新</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>P</LANG>
+<ENTRY>Atualizar alias para sistema da SAP</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>R</LANG>
+<ENTRY>Выполнить ведение псевдонимов для системы SAP</ENTRY>
+<LENGTH>120</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>101</KEY>
+<LANG>1</LANG>
+<ENTRY>系统别名：</ENTRY>
+<LENGTH>23</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>101</KEY>
+<LANG>D</LANG>
+<ENTRY>Systemalias:</ENTRY>
+<LENGTH>23</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>101</KEY>
+<LANG>F</LANG>
+<ENTRY>Alias système :</ENTRY>
+<LENGTH>23</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>101</KEY>
+<LANG>J</LANG>
+<ENTRY>システムエイリアス:</ENTRY>
+<LENGTH>23</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>101</KEY>
+<LANG>P</LANG>
+<ENTRY>Alias do sistema:</ENTRY>
+<LENGTH>23</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>101</KEY>
+<LANG>R</LANG>
+<ENTRY>Псевдоним системы:</ENTRY>
+<LENGTH>23</LENGTH>
+</TEXTPOOLT>
+</TEXTPOOLT>
+</asx:values>
+</asx:abap>

@@ -1,0 +1,21 @@
+U1 &PURPOSE&                                                               
+*  Use this task to select roles for FLP content activation.               
+U1 &REALIZE&                                                               
+*  Select or deselect roles for activation.                                
+*                                                                          
+*  The button 'Select recommended SAP Business Roles' selects the following
+   roles:                                                                  
+B1 SAP_BR_ADMINISTRATOR                                                    
+B1 SAP_BR_ANALYTICS_SPECIALIST                                             
+B1 SAP_BR_BUSINESS_PROCESS_SPEC                                            
+B1 SAP_BR_BPC_EXPERT                                                       
+*  The roles contain SAP Fiori apps that configure, adapt, and extend other
+   SAP Fiori apps.                                                         
+*                                                                          
+U1 &FURTHER_HINTS&                                                         
+*  See also the Fiori Apps Library for more information about contained    
+   content/apps:                                                           
+*                                                                          
+=  <DS:REPN.STCT_URL_FIORI_APPS_LIB_ROLES> https://fioriappslibrary.hana.on
+=  demand.com/sap/fix/externalViewer/#/filters/RoleNames</>                
+U1                                                                         

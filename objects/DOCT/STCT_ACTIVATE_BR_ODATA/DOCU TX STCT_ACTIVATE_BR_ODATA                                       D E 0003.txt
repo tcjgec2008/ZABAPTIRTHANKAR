@@ -1,0 +1,32 @@
+U1 &PURPOSE&                                                               
+*  Sie verwenden diese Aufgabe, um die festgelegten OData-Services gemäß   
+   der Transaktion <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERVICE</> zu
+   aktivieren.                                                             
+*  Die Services werden mit dem Präfix und im Paket angelegt, das mit der   
+   Aufgabe 'Transportoptionen für zu aktivierende OData-Services festlegen'
+   festgelegt wurde.                                                       
+*  Die Aktivierung eines OData-Service erfolgt immer in den folgenden      
+   Schritten:                                                              
+N1 Legen Sie einen OData-Service an; wenn der OData-Service bereits        
+   verfügbar ist, wird er nicht erneut angelegt (das heißt, er wird nicht  
+   den Verarbeitungsmodus, das Präfix oder die Paketzuordnung ändern)      
+N1 Ordnen Sie den Alias zu; wenn der Verarbeitungsmodus nicht 'nur bei     
+   integriertem Deployment' ist                                            
+N1 Aktivieren Sie den ICF-Knoten                                           
+*  Das Ergebnis jedes Schritts wird auch im detaillierten Protokoll        
+   angezeigt (Status OData-Service / Status Alias / Status ICF-Knoten).    
+U1 &DEPENDENCIES&                                                          
+*  Die Aufgabe 'Transportoptionen für zu aktivierende OData-Services       
+   festlegen' muss der Präprozessor dieser Aufgabe sein.                   
+U1 Fehlerbehebung                                                          
+*  Sollten Probleme auftreten, versuchen Sie den Service manuell über die  
+   Transaktion <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERVICE</> zu    
+   aktivieren.                                                             
+*  Die detaillierte Protokollnachricht 'Anderer Verarbeitungsmodus' weist  
+   darauf hin, dass der Service bereits verfügbar ist, aber nicht im       
+   Verarbeitungsmodus mit integriertem Deployment.                         
+*  Nach Behebung der Aktivierungsfehler führen Sie die Aufgabenliste mit   
+   der gleichen Konfiguration erneut aus, damit die entsprechenden Rollen  
+   fehlerfrei angelegt werden.                                             
+*                                                                          
+*                                                                          

@@ -1,0 +1,12 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza esta tarefa para ativar os serviços OData determinados.    
+*  Os serviços serão criados com o prefixo "Z" e com "$TMP" no pacote      
+   local.                                                                  
+*  O modo de processamento está definido como "Implementação integrada"    
+   (implementação incorporada).                                            
+U1 Eliminação de erros                                                     
+*  Caso ocorram problemas, tente ativar o serviço manualmente por meio da  
+   transação <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERVICE</>.        
+*                                                                          
+*                                                                          
+*                                                                          

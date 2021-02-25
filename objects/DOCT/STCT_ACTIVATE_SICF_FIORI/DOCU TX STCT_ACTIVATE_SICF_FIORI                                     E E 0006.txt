@@ -1,0 +1,13 @@
+U1 &PURPOSE&                                                               
+*  Use this task to activate the following HTTP services according to      
+   transaction                                                             
+=   <DS:TRAN.SICF>SICF</>:                                                 
+B1 /sap/bc/webdynpro/sap/SUI_TM_MM_APP                                     
+B1 /sap/bw/ina                                                             
+B1 /sap/bw/ina/GetServerInfo                                               
+B1 /sap/bw/ina/GetResponse                                                 
+B1 /sap/bw/Mime                                                            
+B1 /sap/bc/bsp/sap/sakp_genui_a_s1                                         
+B1 /sap/public/bc/uics/whitelist                                           
+*                                                                          
+U1                                                                         

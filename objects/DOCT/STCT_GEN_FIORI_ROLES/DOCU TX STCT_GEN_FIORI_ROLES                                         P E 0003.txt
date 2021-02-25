@@ -1,0 +1,12 @@
+U1 &PURPOSE&                                                               
+*  Utilize esta tarefa para copiar as funções SAP_UI2_ADMIN_* /            
+   SAP_UI2_USER_* com prefixo definido para o seu espaço de nomes próprio. 
+*  As funções <(><<)>PREFIXO>_UI2_ADMIN_700 e <(><<)>PREFIXO>_UI2_USER_700 
+   serão ampliadas com autorizações e menus para as funções Fiori gerais.  
+*  As funções copiadas são utilizada para criar uma função composta.       
+*  (Transação <DS:TRAN.PFCG>PFCG</>)                                       
+U1 &REALIZE&                                                               
+B1 Insira o prefixo.                                                       
+B1 Insira o nome da função composta.                                       
+*                                                                          
+*                                                                          

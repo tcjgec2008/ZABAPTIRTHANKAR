@@ -1,0 +1,21 @@
+U1 &PURPOSE&                                                               
+*  Use this task to create a local https destination with default naming   
+   convention <ZH>FIORI_FLP_HTTPS </>and create corresponding aliases for  
+   this system (according to transactions                                  
+=   <DS:TRAN.SM59>SM59</> and                                              
+=   <DS:TRAN.SM30>SM30):</>                                                
+*  ·,,Customer System Alias:<ZH> /UI2/VC_SYSALIAS</>                       
+*  ·,,System Alias Mapping: <ZH>/UI2/V_ALIASMAP</>                         
+U1 &REALIZE&                                                               
+*  Check and maintain https connection data for Fiori Launchpad (in case of
+   using SAP Web Dispatcher, enter URL of web dispatcher)                  
+U1 Remark                                                                  
+*  In case the entered URL is different from the local one, the tasks '    
+   Activate HTTP Allowlist Maintenance (UCON_CHW)' and ' Add Fiori URL to  
+   HTTP Allowlist (UCON_CHW)' are set in scope. The entered URL is used as 
+   Fiori URl that is added to the HTTP Allowlist.                          
+U1 &DEPENDENCIES&                                                          
+*  The task 'Create / Select Workbench Request (SE09)' must be preprocessor
+   of this task.                                                           
+*                                                                          
+*                                                                          

@@ -1,0 +1,3 @@
+  METHOD IF_STCTM_TASK~GET_DESCRIPTION.
+    rv_descr = 'Activate OData Services (/IWFND/MAINT_SERVICE)'(001).
+  ENDMETHOD.

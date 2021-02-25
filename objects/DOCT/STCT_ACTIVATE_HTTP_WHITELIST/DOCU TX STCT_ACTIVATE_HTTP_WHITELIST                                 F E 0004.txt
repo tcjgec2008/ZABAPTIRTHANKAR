@@ -1,0 +1,19 @@
+U1 &PURPOSE&                                                               
+*  Cette tâche vous permet d’activer la nouvelle gestion de listes blanches
+   HTTP selon la transaction <DS:TRAN.UCON_CHW><DS:TRAN.UCON_CHW>UCON_CHW  
+=  </></>.                                                                 
+*                                                                          
+U1 &REALIZE&                                                               
+B1 Activez la nouvelle gestion des listes blanches pour tous les mandants  
+   ou pour un mandant local (types de contextes 01, 03 ; le type de        
+   contexte 04 est toujours pour tous les mandants).                       
+B1 Contrôlez l'activation de la protection contre le détournement de clic  
+   (type de contexte 02).                                                  
+*                                                                          
+U1 Remarque                                                                
+*  Si la tâche ne peut pas être sélectionnée, les entrées trouvées sont    
+   présentes dans la table <ZH>http_whitelist</> (<DS:TRAN.SE16>SE16</>).  
+*  Ces entrées doivent être vérifiées et être importées manuellement dans  
+   la configuration de liste blanche à l'aide de la transaction            
+   <DS:TRAN.UCON_CHW>UCON_CHW</>.                                          
+*                                                                          

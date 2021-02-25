@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>010</KEY>
+<LANG>E</LANG>
+<ENTRY>HTTPS Connection</ENTRY>
+<LENGTH>26</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>020</KEY>
+<LANG>E</LANG>
+<ENTRY>Customer System Alias (/UI2/VC_SYSALIAS)</ENTRY>
+<LENGTH>80</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>030</KEY>
+<LANG>E</LANG>
+<ENTRY>System Alias Mapping (/UI2/V_ALIASMAP)</ENTRY>
+<LENGTH>76</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>R</ID>
+<KEY></KEY>
+<LANG>E</LANG>
+<ENTRY>Set SAP System Alias 'FIORI'_CLASSICUI' for HTTPS connection</ENTRY>
+<LENGTH>60</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_CUSAL</KEY>
+<LANG>E</LANG>
+<ENTRY>        Customer System Alias</ENTRY>
+<LENGTH>29</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_DESC</KEY>
+<LANG>E</LANG>
+<ENTRY>        Description</ENTRY>
+<LENGTH>19</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_DEST</KEY>
+<LANG>E</LANG>
+<ENTRY>        RFC Destination</ENTRY>
+<LENGTH>23</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_HOST</KEY>
+<LANG>E</LANG>
+<ENTRY>        Host</ENTRY>
+<LENGTH>12</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_MAPAL</KEY>
+<LANG>E</LANG>
+<ENTRY>        System Alias Mapping</ENTRY>
+<LENGTH>28</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_MAPCL</KEY>
+<LANG>E</LANG>
+<ENTRY>        Client</ENTRY>
+<LENGTH>14</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_MAPRFC</KEY>
+<LANG>E</LANG>
+<ENTRY>        Target System Alias</ENTRY>
+<LENGTH>27</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_PATH</KEY>
+<LANG>E</LANG>
+<ENTRY>        Path Prefix</ENTRY>
+<LENGTH>19</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_SYSNR</KEY>
+<LANG>E</LANG>
+<ENTRY>        Port</ENTRY>
+<LENGTH>12</LENGTH>
+</TEXTPOOLT>
+</TEXTPOOLT>
+</asx:values>
+</asx:abap>

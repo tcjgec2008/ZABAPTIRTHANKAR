@@ -1,0 +1,19 @@
+U1 &PURPOSE&                                                               
+*  Sie verwenden diese Aufgabe für die Auswahl der SAP-Anwendungsrollen    
+   (SAP_BR*) für die FLP-Content-Aktivierung.                              
+U1 &REALIZE&                                                               
+*                                                                          
+U1 &REALIZE&                                                               
+*  Wählen Sie Rollen für die Aktivierung aus oder entmarkieren Sie sie.    
+U1 &FURTHER_HINTS&                                                         
+*  In der Fiori-Apps-Bibliothek finden Sie weitere Informationen zu        
+   Content/Apps:                                                           
+*  <DS><DS:REPN.STCT_URL_FIORI_APPS_LIB_ROLES> https://fioriappslibrary.han
+=  a.ondemand.com/sap/fix/externalViewer/#/filters/RoleNames</></>         
+U1 Fehlerbehebung                                                          
+*  Es sind keine SAP_BR*-Rollen verfügbar/auswählbar: SAP-Fiori-Komponenten
+   sind nicht installiert                                                  
+*  SAP-Hinweis 2704570 prüfen - Sammelhinweis: Schnelle Aktivierung für    
+   Fiori in S/4HANA für Voraussetzungen                                    
+U1                                                                         
+U1                                                                         

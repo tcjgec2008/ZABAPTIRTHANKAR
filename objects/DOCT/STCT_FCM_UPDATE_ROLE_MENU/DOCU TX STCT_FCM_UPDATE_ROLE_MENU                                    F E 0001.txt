@@ -1,0 +1,7 @@
+U1 &PURPOSE&                                                               
+*  Cette tâche vous permet de mettre à jour les menus de rôles modifiés.   
+*                                                                          
+U1 Correction des erreurs                                                  
+*  Si des problèmes surviennent, vérifiez le rôle avec la transaction      
+   <DS:TRAN.PFCG>PFCG.</>                                                  
+*                                                                          

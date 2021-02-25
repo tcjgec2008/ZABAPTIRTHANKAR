@@ -1,0 +1,21 @@
+U1 &PURPOSE&                                                               
+*  Utilisez cette tâche pour sélectionner les services OData pour          
+   l'activation selon la transaction <DS:TRAN./IWFND/MAINT_SERVICE>        
+=  /IWFND/MAINT_SERVICE</>.                                                
+*  Pour l'activation, les services OData du système backend sont appelés et
+   activés dans le système passerelle SAP. L'alias système est affecté et  
+   le noeud ICF est activé.                                                
+B1 Si le service OData existe déjà dans le système passerelle SAP et si le 
+   système n'est pas affecté, l'alias système est ajouté au service OData. 
+   Le statut du nœud ICF reste inchangé.                                   
+B1 Si le service OData n'existe pas dans le système backend, un message    
+   d'erreur s'affiche.                                                     
+U1 &REALIZE&                                                               
+*  Sélectionnez les services OData pour les activations ou                 
+   désélectionnez-les.                                                     
+*                                                                          
+U1 Correction des erreurs                                                  
+*  Si des problèmes se produisent, essayez d’activer manuellement le       
+   service via la transaction <DS:TRAN./IWFND/MAINT_SERVICE>               
+=  /IWFND/MAINT_SERVICE</>.                                                
+*                                                                          

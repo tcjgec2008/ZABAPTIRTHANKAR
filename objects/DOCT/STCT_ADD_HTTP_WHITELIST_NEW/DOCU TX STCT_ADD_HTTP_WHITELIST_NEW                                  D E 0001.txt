@@ -1,0 +1,7 @@
+U1 &PURPOSE&                                                               
+*  Sie verwenden diese Aufgabe für das Hinzufügen neuer                    
+   HTTP-Whitelist-Einträge gemäß der Transaktion <DS:TRAN.UCON_CHW>        
+=  <DS:TRAN.UCON_CHW>UCON_CHW</></>.                                       
+*  Falls in vorherigen Aufgaben eine HTTPS/HTTP-Verbindung angelegt wurde, 
+   wird das Schema allen aktivierten Kontextarten hinzugefügt.             
+*                                                                          

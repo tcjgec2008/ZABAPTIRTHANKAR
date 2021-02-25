@@ -1,0 +1,3 @@
+U1 &PURPOSE&                                                               
+*  使用此任务根据事务 <DS:TRAN.SICF>SICF</> 激活以下 HTTP 服务：                           
+B1 /sap/bc/nwbc/*                                                          

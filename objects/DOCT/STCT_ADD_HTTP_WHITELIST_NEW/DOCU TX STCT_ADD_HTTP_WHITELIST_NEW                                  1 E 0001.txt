@@ -1,0 +1,6 @@
+U1 &PURPOSE&                                                               
+*  此任务用于根据事务 <DS:TRAN.UCON_CHW>UCON_CHW</> 添加新的 http 白名单条                  
+   目。                                                                      
+*  如果在先前任务中已创建 https/http 连接，则将模式添加到所有已启用的上下文                              
+   类型。                                                                     
+*                                                                          

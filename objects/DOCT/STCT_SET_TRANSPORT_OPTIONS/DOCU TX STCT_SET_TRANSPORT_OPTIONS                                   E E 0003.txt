@@ -1,0 +1,25 @@
+U1 &PURPOSE&                                                               
+*  Use this task to set the transport options for the to be activated OData
+   services                                                                
+U1 &CHECK&                                                                 
+*  The task checks if cross-specific changes and automatic recording of    
+   changes are allowed according to the settings in transaction            
+=   <DS:TRAN.SCC4>SCC4</>.                                                 
+U1 &REALIZE&                                                               
+*  Enter the prefix and the package how the OData services should be       
+   created.                                                                
+*  By default, the services are created with prefix <ZK>Z</> in package    
+   $tmp.                                                                   
+*  If a transportable package is chosen, a workbench request and a         
+   customizing request are necessary.                                      
+*  The workbench request records data for the OData and ICF service while  
+   the customizing request records the system alias assignment to the OData
+   service.                                                                
+*  You can either create new request and task for your user or select an   
+   existing request.                                                       
+*  In case cross-specific changes and automatic recording of changes are   
+   not allowed, check the checkboxes to change the settings for the client.
+U1 Remark                                                                  
+*  When disabling the task, the following OData Activation task will not   
+   create any OData services and will only activate the OData ICF services.
+   This can be used for activating OData services in the Q / P System.     

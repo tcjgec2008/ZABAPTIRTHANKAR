@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>E</LANG>
+<ENTRY>Select SAP System Alias for 'TASKPROCESSING'</ENTRY>
+<LENGTH>84</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>003</KEY>
+<LANG>E</LANG>
+<ENTRY>SAP System Alias</ENTRY>
+<LENGTH>26</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>004</KEY>
+<LANG>E</LANG>
+<ENTRY>Routing-based</ENTRY>
+<LENGTH>23</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>005</KEY>
+<LANG>E</LANG>
+<ENTRY>Co-deployed only</ENTRY>
+<LENGTH>26</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>006</KEY>
+<LANG>E</LANG>
+<ENTRY>Select SAP System Alias for Taskprocessing</ENTRY>
+<LENGTH>84</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>010</KEY>
+<LANG>E</LANG>
+<ENTRY>Info</ENTRY>
+<LENGTH>14</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>011</KEY>
+<LANG>E</LANG>
+<ENTRY>OData services will be activated by default in co-deployed mode.</ENTRY>
+<LENGTH>128</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>012</KEY>
+<LANG>E</LANG>
+<ENTRY>Use below setting for the exceptional handling of the 'TASKPROCESSING' service.</ENTRY>
+<LENGTH>132</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>TM1</KEY>
+<LANG>E</LANG>
+<ENTRY>NOTE: Execution is done with Task Manager (transaction STC01)</ENTRY>
+<LENGTH>122</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>R</ID>
+<KEY></KEY>
+<LANG>E</LANG>
+<ENTRY>Activate OData Services (/IWFND/MAINT_SERVICE)</ENTRY>
+<LENGTH>46</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_OPT1</KEY>
+<LANG>E</LANG>
+<ENTRY>        Routing-based</ENTRY>
+<LENGTH>21</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_OPT2</KEY>
+<LANG>E</LANG>
+<ENTRY>        Co-deployed only</ENTRY>
+<LENGTH>24</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_SELDES</KEY>
+<LANG>E</LANG>
+<ENTRY>        SAP System Alias</ENTRY>
+<LENGTH>24</LENGTH>
+</TEXTPOOLT>
+</TEXTPOOLT>
+</asx:values>
+</asx:abap>

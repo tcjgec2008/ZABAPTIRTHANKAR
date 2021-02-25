@@ -1,0 +1,13 @@
+U1 &PURPOSE&                                                               
+*  Cette tâche vous permet de copier les rôles SAP_UI2_ADMIN_* /           
+   SAP_UI2_USER_* avec un préfixe défini dans votre propre espace nom.     
+*  Les rôles copiés <(><<)>PRÄFIX>_UI2_ADMIN_700 et <(>                    
+=  <<)>PRÄFIX>_UI2_USER_700 sont étendus avec des autorisations et des     
+   menus pour les fonctions SAP Fiori générales.                           
+*  Les rôles copiés servent à créer un rôle composite.                     
+*  (Transaction <DS:TRAN.PFCG>PFCG</>)                                     
+U1 &REALIZE&                                                               
+B1 Saisissez le préfixe.                                                   
+B1 Saisissez le nom du rôle composite.                                     
+*                                                                          
+*                                                                          

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>1</LANG>
+<ENTRY>为通知配置 FLP (/UI2/FLP_SYS_CONF)</ENTRY>
+<LENGTH>102</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>D</LANG>
+<ENTRY>FLP für Benachrichtigungen konfigurieren (/UI2/FLP_SYS_CONF)</ENTRY>
+<LENGTH>102</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>E</LANG>
+<ENTRY>Configure FLP for Notification</ENTRY>
+<LENGTH>102</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>F</LANG>
+<ENTRY>Configurer FLP pour les notifications (/UI2/FLP_SYS_CONF)</ENTRY>
+<LENGTH>102</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>J</LANG>
+<ENTRY>通知の FLP 設定 (/UI2/FLP_SYS_CONF)</ENTRY>
+<LENGTH>102</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>P</LANG>
+<ENTRY>Configurar FLP para notificações (/UI2/FLP_SYS_CONF)</ENTRY>
+<LENGTH>102</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>R</LANG>
+<ENTRY>Сконфигурировать FLP для уведомлений (/UI2/FLP_SYS_CONF)</ENTRY>
+<LENGTH>102</LENGTH>
+</TEXTPOOLT>
+</TEXTPOOLT>
+</asx:values>
+</asx:abap>

@@ -1,0 +1,16 @@
+U1 &PURPOSE&                                                               
+*                                                                          
+*  Mit dieser Aufgabe legen Sie die folgenden Aliasse für eine vorhandene  
+   vertrauenswürdige RFC-Destination an (Transaktion <DS:TRAN.SM30>SM30</> 
+=  ):                                                                      
+*  SAP-Systemalias:  <ZH>/IWFND/V_DFSYAL</>                                
+*  Kunden-Systemalias:<ZH> /UI2/VC_SYSALIAS</>                             
+*  Systemaliaszuordnung: <ZH>/UI2/V_ALIASMAP</>                            
+U1 &DEPENDENCIES&                                                          
+*  Die Aufgaben 'ABAP-/HTTP(S)-Verbindungen für SAP-System anlegen (SM59)',
+   'Customizing-Auftrag anlegen/auswählen (SE09)' und 'Workbench-Auftrag   
+   anlegen/auswählen (SE09)' müssen Präprozessoren dieser Aufgabe sein.    
+U1 &REALIZE&                                                               
+B1 Geben Sie eine vertrauenswürdige RFC-Destination ein.                   
+B1 Geben Sie den Aliasnamen ein.                                           
+*                                                                          

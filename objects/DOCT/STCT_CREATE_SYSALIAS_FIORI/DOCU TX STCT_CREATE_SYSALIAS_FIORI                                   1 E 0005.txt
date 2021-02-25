@@ -1,0 +1,7 @@
+U1 &PURPOSE&                                                               
+*  使用此任务在系统中创建以下别名（事务 <DS:TRAN.SM30>SM30</>）：                              
+B1 系统别名映射 (<ZH>/UI2/V_ALIASMAP</>)：从 /UI2/SYSTEMALIAS 为所有源创建               
+   条目；将目标系统别名维护为空以映射到本地系统                                                  
+B1 客户系统别名 (<ZH>/UI2/VC_SYSALIAS)</>：创建别名 'FIORI_MENU'                      
+U1 &DEPENDENCIES&                                                          
+*  “创建/选择工作台请求 (SE09)”任务必须是此任务的前趋。                                         

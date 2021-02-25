@@ -1,0 +1,19 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza esta tarefa para selecionar serviços OData para a ativação 
+   segundo a transação <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERVICE  
+=  </>.                                                                    
+*  Para a ativação, os serviços OData são chamados pelo sistema back-end e 
+   ativados no sistema SAP Gateway. O alias de sistema é atribuído e o nó  
+   ICF ativado.                                                            
+B1 Se o serviço OData já existir no sistema SAP Gateway e o sistema não    
+   estiver atribuído, o alias de sistema é inserido no serviço OData. O    
+   status de nó ICF permanece inalterado.                                  
+B1 Se o serviço OData não existir no sistema back-end, é exibida uma       
+   mensagem de erro.                                                       
+U1 &REALIZE&                                                               
+*  Selecione serviços OData para a ativação ou desmarque-os.               
+*                                                                          
+U1 Eliminação de erros                                                     
+*  Caso ocorram problemas, tente ativar o serviço manualmente por meio da  
+   transação <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERVICE</>.        
+*                                                                          

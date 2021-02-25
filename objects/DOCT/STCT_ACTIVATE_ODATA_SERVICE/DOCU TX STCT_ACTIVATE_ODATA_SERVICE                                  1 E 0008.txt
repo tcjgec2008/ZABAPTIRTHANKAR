@@ -1,0 +1,15 @@
+U1 &PURPOSE&                                                               
+*  使用此任务可根据事务 <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERVICE           
+   </> 选择多个要激活的 OData 服务。                                                  
+*  为进行激活，将从后端系统检索 OData 服务并在 SAP Gateway 系统中激活该服务                          
+   。将分配系统别名并激活 Internet 通信框架 (ICF) 节点                                      
+B1 如果在 SAP Gateway 系统中已存在 OData 服务而系统并未分配，则将向 OData                        
+    服务中添加系统别名。ICF 节点状态保持不变。                                                
+B1 如果后端系统中不存在 OData 服务，将显示错误消息。                                            
+U1 &REALIZE&                                                               
+*  选择或取消选择要激活的 OData 服务。                                                   
+*                                                                          
+U1 故障排除                                                                    
+*  出现问题时，尝试通过事务 <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERV            
+   ICE</> 手动激活服务。                                                          
+*                                                                          

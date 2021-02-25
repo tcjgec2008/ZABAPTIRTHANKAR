@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>010</KEY>
+<LANG>E</LANG>
+<ENTRY>Fiori URL for HTTP Allowlist:</ENTRY>
+<LENGTH>60</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>R</ID>
+<KEY></KEY>
+<LANG>E</LANG>
+<ENTRY>Add HTTP(S) Connection to new HTTP Allowlist (UCON_CHW)</ENTRY>
+<LENGTH>55</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_HOST</KEY>
+<LANG>E</LANG>
+<ENTRY>        Host</ENTRY>
+<LENGTH>12</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_PATH</KEY>
+<LANG>E</LANG>
+<ENTRY>        Path</ENTRY>
+<LENGTH>12</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>S</ID>
+<KEY>P_PORT</KEY>
+<LANG>E</LANG>
+<ENTRY>        Port</ENTRY>
+<LENGTH>12</LENGTH>
+</TEXTPOOLT>
+</TEXTPOOLT>
+</asx:values>
+</asx:abap>

@@ -1,0 +1,30 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza esta tarefa para ativar os serviços OData determinados de  
+   acordo com a transação <DS:TRAN./IWFND/MAINT_SERVICE>                   
+=  /IWFND/MAINT_SERVICE</>.                                                
+*  Os serviços são criados com o prefixo e no pacote que é determinado com 
+   a tarefa 'Determinar opções de transporte para serviços OData a serem   
+   ativados'.                                                              
+*  A ativação de um serviço OData é sempre efetuada nas seguintes etapas:  
+N1 Crie um serviço OData; se o serviço OData já estiver disponível, ele não
+   é criado de novo (ou seja, não modifica o modo de processamento, o      
+   prefixo ou a atribuição de pacote)                                      
+N1 Atribua um alias; se o modo de processamento não for 'só para           
+   implementação integrada'                                                
+N1 Ative o nó ICF                                                          
+*  O resultado de cada etapa é também exibido no log detalhado (Status do  
+   serviço OData/status do alias/status do nó ICF).                        
+U1 &DEPENDENCIES&                                                          
+*  A tarefa 'Determinar opções de transporte para serviços OData a serem   
+   ativados' deve ser o pré-processador desta tarefa.                      
+U1 Eliminação de erros                                                     
+*  Caso ocorram problemas, tente ativar o serviço manualmente por meio da  
+   transação <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERVICE</>.        
+*  A mensagem de log detalhada 'Outro modo de processamento' indica que o  
+   serviço já está disponível, mas não no modo de processamento com a      
+   implementação integrada.                                                
+*  Após eliminação dos erros de ativação, execute novamente a lista de     
+   tarefas com a mesma configuração, para que as funções correspondentes   
+   sejam criadas sem erros.                                                
+*                                                                          
+*                                                                          

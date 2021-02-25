@@ -1,0 +1,24 @@
+U1 &PURPOSE&                                                               
+*  Sie verwenden diese Aufgabe, um die Transportoptionen für die zu        
+   aktivierenden OData-Services festzulegen.                               
+U1 &CHECK&                                                                 
+*  Die Aufgabe prüft, ob mandantenübergreifende Änderungen und die         
+   automatische Aufzeichnung der Änderungen gemäß der Einstellungen in     
+   Transaktion <DS:TRAN.SCC4>SCC4</> zulässig sind.                        
+U1 &REALIZE&                                                               
+*  Geben Sie das Präfix und das Paket ein, und geben Sie an, wie die       
+   OData-Services angelegt werden sollen.                                  
+*  Standardmäßig werden die Services mit dem Präfix <ZK>Z</> in Paket $tmp 
+   angelegt.                                                               
+*  Wird ein transportierbares Paket gewählt, sind ein Workbench- und ein   
+   Customizing-Auftrag erforderlich.                                       
+*  Der Workbench-Auftrag zeichnet Daten für den OData- und ICF-Service auf,
+   während der Customizing-Auftrag die Zuordnung des Systemalias zum       
+   OData-Service aufzeichnet.                                              
+*  Sie können entweder einen neuen Auftrag oder eine neue Aufgabe für Ihren
+   Benutzer anlegen oder einen bereits vorhandenen Auftrag auswählen.      
+*  Sollten mandantenübergreifende Änderungen und die automatische          
+   Aufzeichnung der Änderungen nicht zulässig sein, markieren Sie die An   
+=  kreuzfelder, um die Einstellungen für den Mandanten zu ändern.          
+*                                                                          
+*                                                                          

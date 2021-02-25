@@ -1,0 +1,12 @@
+U1 &PURPOSE&                                                               
+*  使用此任务将角色 SAP_UI2_ADMIN_*/SAP_UI2_USER_* 复制到您自己的命名空间并                    
+   加上预定义前缀。                                                                
+*  复制的角色 <(><<)>PREFIX>_UI2_ADMIN_700 和 <(><<)>PREFIX>_UI2_USER_700        
+    将通过 Fiori 通用功能的权限/菜单进行增强。                                              
+*  复制的角色将用于创建复合角色。                                                         
+*  （事务 <DS:TRAN.PFCG>PFCG</>）                                              
+U1 &REALIZE&                                                               
+B1 输入前缀                                                                    
+B1 输入复合角色的名称                                                               
+*                                                                          
+*                                                                          

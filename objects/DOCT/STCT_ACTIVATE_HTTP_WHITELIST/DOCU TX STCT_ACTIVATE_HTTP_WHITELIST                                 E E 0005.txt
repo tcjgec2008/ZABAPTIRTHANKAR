@@ -1,0 +1,18 @@
+U1 &PURPOSE&                                                               
+*  Use this task to activate new http allowlist maintenance according to   
+   transaction                                                             
+=   <DS:TRAN.UCON_CHW>UCON_CHW.</>                                         
+*                                                                          
+U1 &REALIZE&                                                               
+B1 Select activate new whitelist maintenance for all clients or local      
+   client (context types 01, 03; context type 04 is always for all clients)
+B1 Check for activating clickjacking protection (context type 02)          
+*                                                                          
+U1 Remark                                                                  
+*  In case the task is not selectable, entries are found in the table      
+   <ZH>http_whitelist</> (                                                 
+=    <DS:TRAN.SE16>SE16</> ) .                                             
+*  These entries needs to be checked and manually imported to the new      
+   whitelist configuration with transaction                                
+=    <DS:TRAN.UCON_CHW>UCON_CHW</>.                                        
+*                                                                          

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>E</LANG>
+<ENTRY>Publish Service Groups (/IWFND/V4_ADMIN)</ENTRY>
+<LENGTH>80</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>010</KEY>
+<LANG>E</LANG>
+<ENTRY>Failed services</ENTRY>
+<LENGTH>25</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>011</KEY>
+<LANG>E</LANG>
+<ENTRY>Detail view cannot be displayed</ENTRY>
+<LENGTH>62</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>012</KEY>
+<LANG>E</LANG>
+<ENTRY>Service</ENTRY>
+<LENGTH>17</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>013</KEY>
+<LANG>E</LANG>
+<ENTRY>Version</ENTRY>
+<LENGTH>17</LENGTH>
+</TEXTPOOLT>
+</TEXTPOOLT>
+</asx:values>
+</asx:abap>

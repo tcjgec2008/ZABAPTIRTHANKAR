@@ -1,0 +1,14 @@
+U1 &PURPOSE&                                                               
+*                                                                          
+*  使用此任务为现有受信 RFC 目标创建以下别名（事务 <DS:TRAN.SM30>SM30</>）                       
+   ：                                                                       
+*  SAP 系统别名：<ZH>/IWFND/V_DFSYAL</>                                         
+*  客户系统别名：<ZH>/UI2/VC_SYSALIAS</>                                          
+*  系统别名映射：<ZH>/UI2/V_ALIASMAP</>                                           
+U1 &DEPENDENCIES&                                                          
+*  任务“为 SAP 系统创建 ABAP/HTTP(S) 连接 (SM59)”、“创建/选择定制请求 (S                     
+   E09)”和“创建/选择工作台请求 (SE09)”必须是此任务的前趋。                                     
+U1 &REALIZE&                                                               
+B1 输入受信 RFC 目标                                                             
+B1 输入别名                                                                    
+*                                                                          

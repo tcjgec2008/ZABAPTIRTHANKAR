@@ -1,0 +1,14 @@
+U1 &PURPOSE&                                                               
+*  Use this task to add new http allowlist entries according to transaction
+=   <DS:TRAN.UCON_CHW>UCON_CHW.</>                                         
+*  The Fiori URL is retrieved form the task 'Set SAP System Alias for Fiori
+   Launchpad'.                                                             
+*                                                                          
+U1 Remark                                                                  
+*  In case the task is not selectable, entries are found in the table      
+   http_whitelist ( SE16 ) .                                               
+*  These entries need to be checked and manually imported to the new       
+   allowlist configuration with transaction UCON_CHW.                      
+*                                                                          
+*                                                                          
+*                                                                          

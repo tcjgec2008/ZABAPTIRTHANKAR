@@ -1,0 +1,10 @@
+U1 &PURPOSE&                                                               
+*  このタスクでは、トランザクション <DS:TRAN./UI2/FLP_SYS_CONF>/UI2/FLP_SYS                
+   _CONF</> に従って、以下の FLP プロパティを設定します。                                      
+B1 NOTIFICATIONS = true                                                    
+B1 NOTIFICATIONS_UI = true                                                 
+*  他の値の FLP プロパティがすでに存在する場合は、パラメータ UI で設定の上                                
+   書きを確認してください。                                                            
+U1 &DEPENDENCIES&                                                          
+*  タスク 'ワークベンチ依頼の登録/選択 (SE09)' が、このタスクの先行タスクで                              
+   ある必要があります。                                                              

@@ -1,0 +1,13 @@
+U1 &PURPOSE&                                                               
+*  Sie verwenden diese Aufgabe, um eine lokale HTTPS-Destination mit der   
+   Standardnamenskonvention <ZH><(><<)>SID>CLNT<(><<)>CLIENT>_HTTPS </>und 
+   die entsprechenden Alias-Namen für dieses System anzulegen (gemäß       
+   derTransaktionen <DS:TRAN.SM59>SM59</> und <DS:TRAN.SM30>SM30):</>      
+*  ·,,Kunden-Systemalias:<ZH> /UI2/VC_SYSALIAS</>                          
+*  ·,,Systemaliaszuordnung: <ZH>/UI2/V_ALIASMAP</>                         
+*                                                                          
+U1 &DEPENDENCIES&                                                          
+*  Die Aufgaben 'Workbench-Auftrag anlegen/auswählen (SE09)' müssen        
+   Präprozessor dieser Aufgabe sein.                                       
+U1 &REALIZE&                                                               
+B1 Überprüfen und pflegen Sie die HTTPS-Verbindungsdaten.                  

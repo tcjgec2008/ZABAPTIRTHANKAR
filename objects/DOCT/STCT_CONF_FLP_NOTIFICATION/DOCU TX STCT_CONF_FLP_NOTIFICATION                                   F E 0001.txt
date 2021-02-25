@@ -1,0 +1,11 @@
+U1 &PURPOSE&                                                               
+*  Cette tâche vous permet de configurer les propriétés FLP suivantes selon
+   la transaction <DS:TRAN./UI2/FLP_SYS_CONF><DS:TRAN./UI2/FLP_SYS_CONF>   
+=  /UI2/FLP_SYS_CONF</>IC</> :                                             
+B1 NOTIFICATIONS = true                                                    
+B1 NOTIFICATIONS_UI = true                                                 
+*  Si la propriété FLP existe déjà avec une autre valeur, confirmez la     
+   demande d’écrasement du paramétrage dans l’IU de paramètre.             
+U1 &DEPENDENCIES&                                                          
+*  La tâche "Créer/Sélectionner ordre du Workbench (SE09)" doit être un    
+   préprocesseur de cette tâche.                                           

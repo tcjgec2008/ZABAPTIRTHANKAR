@@ -1,0 +1,18 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza esta tarefa para a ativação da nova atualização de lista   
+   branca HTTP de acordo com a transação <DS:TRAN.UCON_CHW>                
+=  <DS:TRAN.UCON_CHW>UCON_CHW</></>.                                       
+*                                                                          
+U1 &REALIZE&                                                               
+B1 Ative a nova atualização de lista branca para todos os mandantes ou um  
+   mandante local (tipos de contexto 01, 03; o tipo de contexto 04 é sempre
+   para todos os mandantes)                                                
+B1 Verifique a ativação da proteção Clickjacking (tipo de contexto 02)     
+*                                                                          
+U1 Observação                                                              
+*  Se não for possível selecionar a tarefa, as entradas encontradas        
+   encontram-se na tabela <ZH>http_whitelist</> (<DS:TRAN.SE16>SE16</>).   
+*  Estas entradas devem ser verificadas e importadas manualmente para a    
+   configuração da nova lista branca com a ajuda da transação              
+   <DS:TRAN.UCON_CHW>UCON_CHW</>.                                          
+*                                                                          

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><asx:abap xmlns:asx="http://www.sap.com/abapxml">
+<asx:values>
+<TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>001</KEY>
+<LANG>E</LANG>
+<ENTRY>Network administration</ENTRY>
+<LENGTH>44</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>002</KEY>
+<LANG>E</LANG>
+<ENTRY>Service not available</ENTRY>
+<LENGTH>42</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>003</KEY>
+<LANG>E</LANG>
+<ENTRY>Lock error</ENTRY>
+<LENGTH>20</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>004</KEY>
+<LANG>E</LANG>
+<ENTRY>No authorization</ENTRY>
+<LENGTH>26</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>005</KEY>
+<LANG>E</LANG>
+<ENTRY>Other error</ENTRY>
+<LENGTH>21</LENGTH>
+</TEXTPOOLT>
+<TEXTPOOLT>
+<ID>I</ID>
+<KEY>010</KEY>
+<LANG>E</LANG>
+<ENTRY>Activate HTTP services for SAP Smart Business Modeler Apps</ENTRY>
+<LENGTH>110</LENGTH>
+</TEXTPOOLT>
+</TEXTPOOLT>
+</asx:values>
+</asx:abap>

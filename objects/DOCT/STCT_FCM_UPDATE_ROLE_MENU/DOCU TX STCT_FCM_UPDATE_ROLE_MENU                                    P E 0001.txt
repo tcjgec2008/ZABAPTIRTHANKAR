@@ -1,0 +1,8 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza esta tarefa para a atualização do menu de função           
+   modificado.                                                             
+*                                                                          
+U1 Eliminação de erros                                                     
+*  Se surgirem problemas, verifique a função com a transação <DS:TRAN.PFCG>
+=  PFCG.</>                                                                
+*                                                                          

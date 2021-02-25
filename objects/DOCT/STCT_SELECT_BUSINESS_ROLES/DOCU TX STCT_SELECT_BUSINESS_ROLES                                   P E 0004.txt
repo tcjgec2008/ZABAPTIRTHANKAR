@@ -1,0 +1,19 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza esta tarefa para a seleção das funções de aplicação SAP    
+   (SAP_BR*) para a ativação do conteúdo FLP.                              
+U1 &REALIZE&                                                               
+*                                                                          
+U1 &REALIZE&                                                               
+*  Selecione funções para a ativação ou desmarque-as.                      
+U1 &FURTHER_HINTS&                                                         
+*  Na biblioteca de apps Fiori, você encontra mais informações sobre       
+   conteúdo/apps:                                                          
+*  <DS><DS:REPN.STCT_URL_FIORI_APPS_LIB_ROLES> https://fioriappslibrary.han
+=  a.ondemand.com/sap/fix/externalViewer/#/filters/RoleNames</></>         
+U1 Eliminação de erros                                                     
+*  Não existem funções SAP_BR* disponíveis/selecionáveis: Os componentes   
+   SAP Fiori não estão instalados                                          
+*  Verificar a nota SAP 2704570 - nota composta: Ativação rápida para SAP  
+   Fiori em SAP S/4HANA para pré-requisitos                                
+U1                                                                         
+U1                                                                         

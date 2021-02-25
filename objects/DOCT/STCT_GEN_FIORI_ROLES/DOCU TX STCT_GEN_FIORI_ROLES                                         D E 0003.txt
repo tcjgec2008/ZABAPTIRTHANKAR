@@ -1,0 +1,14 @@
+U1 &PURPOSE&                                                               
+*  Verwenden Sie diese Aufgabe, um die Rollen SAP_UI2_ADMIN_* /            
+   SAP_UI2_USER_* mit definiertem Präfix in Ihren eigenen Namensraum zu ko 
+=  pieren.                                                                 
+*  Die kopierten Rollen <(><<)>PRÄFIX>_UI2_ADMIN_700 und <(>               
+=  <<)>PRÄFIX>_UI2_USER_700 werden um Berechtigungen und Menüs für         
+   allgemeine Fiori-Funktionen erweitert.                                  
+*  Die kopierten Rollen dienen zum Anlegen einer zusammengesetzten Rolle.  
+*  (Transaktion <DS:TRAN.PFCG>PFCG</> )                                    
+U1 &REALIZE&                                                               
+B1 Geben Sie das Präfix ein.                                               
+B1 Geben Sie den Namen der zusammengesetzten Rolle ein.                    
+*                                                                          
+*                                                                          

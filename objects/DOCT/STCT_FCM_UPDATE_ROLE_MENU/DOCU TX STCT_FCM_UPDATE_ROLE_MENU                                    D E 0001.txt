@@ -1,0 +1,8 @@
+U1 &PURPOSE&                                                               
+*  Sie verwenden diese Aufgabe für die Aktualisierung der geänderten       
+   Rollenmenüs.                                                            
+*                                                                          
+U1 Fehlerbehebung                                                          
+*  Falls Probleme auftreten überprüfen Sie die Rolle mit Transaktion       
+   <DS:TRAN.PFCG>PFCG.</>                                                  
+*                                                                          

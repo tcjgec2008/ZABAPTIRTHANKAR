@@ -1,0 +1,4 @@
+U1 &PURPOSE&                                                               
+*  このタスクは、以下の HTTP サービスをトランザクション <DS:TRAN.SICF>SICF                        
+   </> に従って有効化するために使用します。                                                  
+B1 /sap/bc/nwbc/*                                                          

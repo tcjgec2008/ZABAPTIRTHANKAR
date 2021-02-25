@@ -1,0 +1,19 @@
+U1 &PURPOSE&                                                               
+*  Sie verwenden diese Aufgabe für das Aktivieren der neuen                
+   HTTP-Whitelist-Pflege gemäß der Transaktion <DS:TRAN.UCON_CHW>          
+=  <DS:TRAN.UCON_CHW>UCON_CHW</></>.                                       
+*                                                                          
+U1 &REALIZE&                                                               
+B1 Aktivieren Sie die neue Whitelist-Pflege für alle Mandanten oder einen  
+   lokalen Mandanten (Kontextarten 01, 03; Kontextart 04 ist immer für alle
+   Mandanten)                                                              
+B1 Prüfen Sie auf die Aktivierung des Clickjacking-Schutzes (Kontextart 02)
+*                                                                          
+U1 Bemerkung                                                               
+*  Sollte die Aufgabe nicht ausgewählt werden können, befinden sich die    
+   gefundenen Einträge in Tabelle <ZH>http_whitelist</> (<DS:TRAN.SE16>SE16
+=  </>).                                                                   
+*  Diese Einträge müssen überprüft und manuell in die neue                 
+   Whitelist-Konfiguration mithilfe der Transaktion <DS:TRAN.UCON_CHW>     
+=  UCON_CHW</> importiert werden.                                          
+*                                                                          

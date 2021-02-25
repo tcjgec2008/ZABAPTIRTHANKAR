@@ -1,0 +1,11 @@
+U1 &PURPOSE&                                                               
+*  此任务用于通过缺省命名规则 <ZH><(><<)>SID>CLNT<(><<)>客户端>_HTTPS </>创                 
+   建本地 https 目标并创建本系统的相应别名（根据事务 <DS:TRAN.SM59>SM59</>                      
+    和 <DS:TRAN.SM30>SM30）：</>                                              
+*  ·,,客户系统别名：<ZH>/UI2/VC_SYSALIAS</>                                       
+*  ·,,系统别名映射：<ZH>/UI2/V_ALIASMAP</>                                        
+*                                                                          
+U1 &DEPENDENCIES&                                                          
+*  “创建/选择工作台请求 (SE09)”任务必须是此任务的前趋。                                         
+U1 &REALIZE&                                                               
+B1 检查并维护 https 连接数据                                                        

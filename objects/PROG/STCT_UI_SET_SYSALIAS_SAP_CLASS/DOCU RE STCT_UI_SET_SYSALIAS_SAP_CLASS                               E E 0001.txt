@@ -1,0 +1,2 @@
+/: INCLUDE STCT_SET_SYSALIAS_SAP_CLASS OBJECT DOKU ID TX                   
+AS                                                                         

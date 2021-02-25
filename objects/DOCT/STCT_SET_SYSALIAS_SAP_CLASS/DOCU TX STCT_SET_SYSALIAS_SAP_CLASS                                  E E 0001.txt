@@ -1,0 +1,17 @@
+U1 &PURPOSE&                                                               
+*  Use this task to create a local https destination with default naming   
+   convention <ZH>FIORI_CLASSICUI_HTTPS </>and create corresponding aliases
+   for this system (according to transactions                              
+=   <DS:TRAN.SM59>SM59</> and                                              
+=   <DS:TRAN.SM30>SM30):</>                                                
+*  ·,,Customer System Alias:<ZH> /UI2/VC_SYSALIAS</>                       
+*  ·,,System Alias Mapping: <ZH>/UI2/V_ALIASMAP</>                         
+*  The system alias and mapping to the local https destination is required 
+   for the SAP Easy Access transactions. In case the System Alias          
+   'FIORI_MENU' or the https destination 'FIORI_CLASSICUI_HTTPS' already   
+   exists, the step will be skipped.                                       
+U1 &DEPENDENCIES&                                                          
+*  The tasks 'Create / Select Workbench Request (SE09)' must be            
+   preprocessor of this task.                                              
+U1 &REALIZE&                                                               
+B1 Check and maintain https connection data                                

@@ -1,0 +1,7 @@
+U1 &PURPOSE&                                                               
+*  Cette tâche vous permet d’ajouter de nouvelles entrées de liste blanche 
+   HTTP selon la transaction <DS:TRAN.UCON_CHW><DS:TRAN.UCON_CHW>UCON_CHW  
+=  </></>.                                                                 
+*  Si une connexion HTTPS/HTTP a été établie lors des tâches précédentes,  
+   le schéma est ajouté à tous les types de contextes activés.             
+*                                                                          

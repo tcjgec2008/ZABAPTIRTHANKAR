@@ -1,0 +1,23 @@
+U1 &PURPOSE&                                                               
+*  Use this task to select OData services for activation according to      
+   transaction                                                             
+=   <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERVICE.</>                 
+*                                                                          
+*  The activation of an OData service always processes the steps:          
+N1 Create OData service; if the OData service is already available, it will
+   not be created again (i.e. it will not change the processing mode,      
+   prefix, package assignment)                                             
+N1 Assign Alias; if processing mode is not co-deployed only                
+N1 Activate ICF node                                                       
+*                                                                          
+*  The result of each step is also reflected in the detailed log (Status   
+   OData service / Status Alias / Status ICF node).                        
+U1 &REALIZE&                                                               
+*  Select or deselect OData services for activation.                       
+U1 Remark                                                                  
+*  The detailed log message 'diff. proc. mod' indicates that the service is
+   already available but using a different processing mode than selected.  
+U1 Troubleshooting                                                         
+*  In case of issues try to activate the service manually with transaction 
+=   <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERVICE.</>                 
+*                                                                          

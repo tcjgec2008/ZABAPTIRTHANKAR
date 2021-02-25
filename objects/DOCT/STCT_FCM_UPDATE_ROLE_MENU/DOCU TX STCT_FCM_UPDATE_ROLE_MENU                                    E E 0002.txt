@@ -1,0 +1,22 @@
+U1 &PURPOSE&                                                               
+*  The task updates the applications of the Fiori tile catalog in the PFCG 
+   role menu.                                                              
+*  The maintenance of the authorizations and the generation of the profiles
+   is a necessary manual step and needs to be done in transaction 'Role    
+   Maintenance' (                                                          
+=   <DS:TRAN.PFCG>PFCG</> ).                                               
+*  The detailed log of the task offers a link to the transaction 'Roles:   
+   Mass Generation of Profiles' (                                          
+=   <DS:TRAN.SUPC>SUPC</> ) for authorization maintenance and profile      
+   generation of the selected roles.                                       
+U1 Remark                                                                  
+*  By default, when deselecting the task 'Set transport options for to be  
+   activated OData Services' (OData ICF Activation mode only), the task    
+   will be also deselected assuming the task list is executed in a         
+   productive environment. In case an update of the role menu is wanted,   
+   you must check the task again.                                          
+U1 Troubleshooting                                                         
+*  In case of issues recheck role with transaction                         
+=   <DS:TRAN.PFCG>PFCG.</>                                                 
+*                                                                          
+*                                                                          

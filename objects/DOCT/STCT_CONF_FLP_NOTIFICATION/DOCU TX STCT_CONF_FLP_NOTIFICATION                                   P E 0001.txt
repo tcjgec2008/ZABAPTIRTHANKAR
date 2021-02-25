@@ -1,0 +1,11 @@
+U1 &PURPOSE&                                                               
+*  Você utiliza esta tarefa para instalar as seguintes características FLP 
+   de acordo com a transação <DS:TRAN./UI2/FLP_SYS_CONF>                   
+=  <DS:TRAN./UI2/FLP_SYS_CONF>/UI2/FLP_SYS_CONF</>IC</>:                   
+B1 NOTIFICATIONS = true                                                    
+B1 NOTIFICATIONS_UI = true                                                 
+*  Se a característica FLP já existir com um outro valor, confirme a       
+   solicitação de sobregravar a configuração na IU do parâmetro.           
+U1 &DEPENDENCIES&                                                          
+*  A tarefa 'Criar/selecionar ordem de workbench (SE09)' deve ser um       
+   pré-processador desta tarefa.                                           

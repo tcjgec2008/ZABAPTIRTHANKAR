@@ -1,0 +1,12 @@
+U1 &PURPOSE&                                                               
+*  Sie verwenden diese Aufgabe, um die folgenden FLP-Eigenschaften gemäß   
+   der Transaktion <DS:TRAN./UI2/FLP_SYS_CONF><DS:TRAN./UI2/FLP_SYS_CONF>  
+=  /UI2/FLP_SYS_CONF</>IC</> einzurichten:                                 
+B1 NOTIFICATIONS = true                                                    
+B1 NOTIFICATIONS_UI = true                                                 
+*  Falls die FLP-Eigenschaft bereits mit einem anderen Wert existiert,     
+   bestätigen Sie die Aufforderung, die Einstellung im Parameter-UI zu     
+   überschreiben.                                                          
+U1 &DEPENDENCIES&                                                          
+*  Die Aufgabe 'Workbench-Auftrag anlegen/auswählen (SE09)' muss           
+   Präprozessor dieser Aufgabe sein.                                       

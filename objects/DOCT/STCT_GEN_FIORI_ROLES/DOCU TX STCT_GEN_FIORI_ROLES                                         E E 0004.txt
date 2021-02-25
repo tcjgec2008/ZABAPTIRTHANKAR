@@ -1,0 +1,20 @@
+U1 &PURPOSE&                                                               
+*  Use this task to create composite roles and generate authorizations for 
+   common Fiori functionalities.                                           
+*  The task copies roles SAP_UI2_ADMIN_* / SAP_UI2_USER_* to your own      
+   namespace with a defined prefix (*).                                    
+*  The copied roles <PREFIX>_UI2_ADMIN_700 / <PREFIX>_UI2_USER_700 will be 
+   enhanced with authorizations/menus for common Fiori functionalities     
+   (Fiori Launchpad, Easy Access, Smart Business Runtime Environment,      
+   Enterprise Search, Embedded Analytics)                                  
+*  Then the copied roles will be used to create composite roles (default:  
+   Z_FIORI_FOUNDATION_ADMIN / Z_FIORI_FOUNDATION_USER). (                  
+=  <DS:TRAN.PFCG>PFCG</> ).                                                
+U1 &REALIZE&                                                               
+B1 Enter prefix                                                            
+B1 Enter name of composite roles                                           
+U1 Remark                                                                  
+*  (*) With SAP S/4HANA 2020 release the SAP_UI2_ADMIN / SAP_UI2_USER roles
+   are replaced with SAP_FLP_ADMIN / SAP_FLP_USER roles. Depending on the  
+   availability of the roles, the task selects what roles are copied.      
+*                                                                          

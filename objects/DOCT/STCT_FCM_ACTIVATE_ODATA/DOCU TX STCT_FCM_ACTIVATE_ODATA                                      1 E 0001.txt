@@ -1,0 +1,10 @@
+U1 &PURPOSE&                                                               
+*  使用此任务激活已确定的 OData 服务。                                                   
+*  将使用前缀 "Z" 在本地包 "$TMP" 中创建服务。                                            
+*  处理模式设置为“共同部署”（嵌入式部署）。                                                   
+U1 故障排除                                                                    
+*  出现问题时，尝试通过事务 <DS:TRAN./IWFND/MAINT_SERVICE>/IWFND/MAINT_SERV            
+   ICE</> 手动激活服务。                                                          
+*                                                                          
+*                                                                          
+*                                                                          
